@@ -7,3 +7,26 @@ This repository is designed to provide a comprehensive introduction to computer 
 - Students starting their journey in computer science or IT
 - Developers wanting to learn networking fundamentals
 - Professionals preparing for certifications (e.g., CCNA, Network+)
+
+### Sections:
+ - Networking Overview PREVIEW
+ - Network Types
+ - Networking Topologies
+ - Proxies
+ - Networking Models
+ - The OSI Model
+ - The TCP/IP Model
+ - Network Layer
+ - IPv4 Addresses
+ - Subnetting
+ - MAC Addresses
+ - IPv6 Addresses
+ - Networking Key Terminology
+ - Common Protocols
+ - Wireless Networks
+ - Virtual Private Networks
+ - Vendor Specific Information
+ - Key Exchange Mechanisms
+ - Authentication Protocols
+ - TCP/UDP Connections
+ - Cryptography
