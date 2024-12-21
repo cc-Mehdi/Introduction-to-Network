@@ -30,3 +30,17 @@ This repository is designed to provide a comprehensive introduction to computer 
  - 📔 [Authentication Protocols](https://github.com/cc-Mehdi/Introduction-to-Network/blob/main/Contents/19_Authentication%20Protocols.md)
  - 📔 [TCP/UDP Connections](https://github.com/cc-Mehdi/Introduction-to-Network/blob/main/Contents/20_TCP-UDP%20Connections.md)
  - 📔 [Cryptography](https://github.com/cc-Mehdi/Introduction-to-Network/blob/main/Contents/21_Cryptography.md)
+
+### Good For Who ?
+- this article provides a very basic information for computer network
+- this article good for people don't have any idea about computer network
+- this article prepare you for advance topics in computer network
+
+### Source 
+- the base of this article grow from Introduction To Networking cource in HTB site
+- but we add more information to make learning so easier and more understandable
+- I collect more examples and descriptions from another related websites and also Chat-GPT to describe complex subjects
+
+### Collaboration
+If you notice any inaccuracies or have suggestions to enhance this article, don't hesitate! 😉 Feel free to reach out, share your thoughts, or even directly contribute by fixing it. Every bit of help is appreciated!
+
