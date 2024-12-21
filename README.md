@@ -44,3 +44,5 @@ This repository is designed to provide a comprehensive introduction to computer 
 ### Collaboration
 If you notice any inaccuracies or have suggestions to enhance this article, don't hesitate! 😉 Feel free to reach out, share your thoughts, or even directly contribute by fixing it. Every bit of help is appreciated!
 
+Github : [cc-Mehdi](https://github.com/cc-Mehdi) | Gmail : cc.mehdigholami@gmail.com | Telgram_ID : cc_Mehdi
+
