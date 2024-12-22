@@ -1,1 +1,2 @@
-Empty File
+# Network Types
+In understanding computer networks, it's important to categorize and identify networks based on their types and topologies. This helps in understanding how data is transferred, what range the network covers, and what it’s best suited for. The terminology related to network types can sometimes be overwhelming due to the mix of practical terms used in everyday scenarios and theoretical ones learned primarily in academic settings.
