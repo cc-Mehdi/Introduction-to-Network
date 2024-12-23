@@ -41,6 +41,15 @@ BAN (Body Area Network): A specialized type of network involving wearable comput
 - a WAN is just a large number of LANs joined together. Many large companies or government agencies will have an "Internal WAN" (also called Intranet, Airgap Network, etc.).
 - Generally speaking, the primary way we identify if the network is a WAN is to use a WAN Specific routing protocol such as BGP and if the IP Schema in use is not within RFC 1918 (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16).
 
-### LAN / WLAN
+### VPN
+VPNs **(Virtual Private Networks)** are tools that allow users to **securely** connect to another network as if they were physically connected to it. This is achieved through **secure**, **encrypted connections** over the internet. There are **three** main types of VPNs, each designed for different use cases but all with the same goal: **ensuring privacy**, **security**, and the appearance of being part of a different network. Here's an explanation of the **three** main types:
+
+1. Remote Access VPN:
+This type allows individual users to connect to a private network from a remote location. It's commonly used by employees working from home or traveling who need to access their company’s internal resources like files, applications, or databases.
+
+2. Site-to-Site VPN:
+
+
+3. Client-to-Site VPN:
 
 
