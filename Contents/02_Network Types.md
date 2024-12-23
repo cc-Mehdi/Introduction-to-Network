@@ -33,3 +33,14 @@ EPN (Enterprise Private Network): A network built and maintained by an organizat
 VPN (Virtual Private Network): While not exactly a type of network based on geographical range, a VPN extends a private network across a public network. It enables users to send and receive data as if their devices were directly connected to the private network.
 
 BAN (Body Area Network): A specialized type of network involving wearable computing devices that communicate with each other. Common in medical and fitness technology, it covers the area around an individual’s body.
+
+# Read More
+
+### WAN
+- The WAN (Wide Area Network) is commonly referred to as **The Internet**.
+- a WAN is just a large number of LANs joined together. Many large companies or government agencies will have an "Internal WAN" (also called Intranet, Airgap Network, etc.).
+- Generally speaking, the primary way we identify if the network is a WAN is to use a WAN Specific routing protocol such as BGP and if the IP Schema in use is not within RFC 1918 (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16).
+
+### LAN / WLAN
+
+
