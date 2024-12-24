@@ -46,10 +46,12 @@ VPNs **(Virtual Private Networks)** are tools that allow users to **securely** c
 
 1. Remote Access VPN:
 This type allows individual users to connect to a private network from a remote location. It's commonly used by employees working from home or traveling who need to access their company’s internal resources like files, applications, or databases.
+If the VPN only creates routes for specific networks (ex: 10.10.10.0/24), this is called a **Split-Tunnel VPN**, meaning the Internet connection is not going out of the VPN.
+However, for a company, **split-tunnel VPN's** are typically not ideal because if the machine is infected with malware, network-based detection methods will most likely not work as that traffic goes out the Internet.
 
-2. Site-to-Site VPN:
+3. Site-to-Site VPN:
 
 
-3. Client-to-Site VPN:
+4. Client-to-Site VPN:
 
 
