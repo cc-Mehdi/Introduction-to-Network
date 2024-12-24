@@ -49,9 +49,10 @@ This type allows individual users to connect to a private network from a remote 
 If the VPN only creates routes for specific networks (ex: 10.10.10.0/24), this is called a **Split-Tunnel VPN**, meaning the Internet connection is not going out of the VPN.
 However, for a company, **split-tunnel VPN's** are typically not ideal because if the machine is infected with malware, network-based detection methods will most likely not work as that traffic goes out the Internet.
 
-3. Site-to-Site VPN:
+2. Site-to-Site VPN:
+A Site-to-Site VPN connects entire networks in different locations, making them function as if they are part of the same local network. This setup is often used by organizations with offices in different cities, states, or even countries. The VPN encrypts data as it travels between the two sites over the public Internet, ensuring security. Routers in different networks and in different physical places use **IPsec** (a common protocol for VPNs) to encrypt and authenticate traffic.
 
 
-4. Client-to-Site VPN:
+3. Client-to-Site VPN:
 
 
