@@ -1,4 +1,5 @@
 ![image](https://github.com/user-attachments/assets/b9b64f8a-8e85-4185-8d3d-a56a79ddce0b)
+
 In understanding computer networks, it's important to categorize and identify networks based on their **types** and **topologies**. This helps in understanding how data is transferred, what range the network covers, and what it’s best suited for. The terminology related to network types can sometimes be overwhelming due to the mix of practical terms used in everyday scenarios and theoretical ones learned primarily in academic settings.
 We rarely hear some of the terminologies in practice, so this section will be broken up into **Common Terms** and **Book Terms**.
 
