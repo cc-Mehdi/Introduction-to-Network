@@ -55,4 +55,8 @@ A Site-to-Site VPN connects entire networks in different locations, making them 
 3. SSL VPN :
 (**Secure Sockets Layer** Virtual Private Network) is a type of VPN that provides secure access to remote network resources using the **SSL/TLS (Secure Sockets Layer/Transport Layer Security)** protocol. It is often used to allow users to securely connect to corporate networks, cloud services, or other private resources over the internet.
 
+### PAN / WPAN
+- Modern end devices such as smartphones, tablets, laptops, or desktop computers can be connected ad hoc to form a network to enable data exchange. This can be done by cable in the form of a **Personal Area Network (PAN)**.
+- The wireless variant **Wireless Personal Area Network (WPAN)** is based on Bluetooth or Wireless USB technologies. A **wireless personal area network** that is established via Bluetooth is called **Piconet**. **PAN**s and **WPAN**s usually extend only a few meters and are therefore not suitable for connecting devices in separate rooms or even buildings.
+- In the context of the **Internet of Things (IoT)**, **WPAN**s are used to communicate control and monitor applications with low data rates. Protocols such as **Insteon**, **Z-Wave**, and **ZigBee** were explicitly designed for smart homes and home automation.
 
