@@ -52,7 +52,7 @@ However, for a company, **split-tunnel VPN's** are typically not ideal because i
 2. Site-to-Site VPN:
 A Site-to-Site VPN connects entire networks in different locations, making them function as if they are part of the same local network. This setup is often used by organizations with offices in different cities, states, or even countries. The VPN encrypts data as it travels between the two sites over the public Internet, ensuring security. Routers in different networks and in different physical places use **IPsec** (a common protocol for VPNs) to encrypt and authenticate traffic.
 
-
-3. Client-to-Site VPN:
+3. SSL VPN :
+(**Secure Sockets Layer** Virtual Private Network) is a type of VPN that provides secure access to remote network resources using the **SSL/TLS (Secure Sockets Layer/Transport Layer Security)** protocol. It is often used to allow users to securely connect to corporate networks, cloud services, or other private resources over the internet.
 
 
