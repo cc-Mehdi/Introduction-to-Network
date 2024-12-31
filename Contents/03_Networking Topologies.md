@@ -41,7 +41,19 @@ Network topologies are divided into the following eight basic types:
 ![image](https://github.com/user-attachments/assets/b7dea406-694a-4539-8fd2-88020138a10c)
 More complex networks can be built as hybrids of two or more of the basic topologies mentioned above.
 ---
+## Point-to-Point
+The simplest network topology with a dedicated connection between two hosts is the point-to-point topology. In this topology, a direct and straightforward physical link exists only between two hosts. These two devices can use these connections for mutual communication.
 
+Point-to-point topologies are the basic model of traditional telephony and must not be confused with P2P (Peer-to-Peer architecture).
+
+![image](https://github.com/user-attachments/assets/d1ac750c-cf54-4bb1-9b1c-109aac3a7216)
+
+## Bus
+All hosts are connected via a transmission medium in the bus topology. Every host has access to the transmission medium and the signals that are transmitted over it. There is no central network component that controls the processes on it. The transmission medium for this can be, for example, a coaxial cable.
+
+Since the medium is shared with all the others, only one host can send, and all the others can only receive and evaluate the data and see whether it is intended for itself.
+
+![image](https://github.com/user-attachments/assets/ce0efd49-3620-4aea-bdb5-64c19aa7bc2a)
 
 
 
