@@ -27,3 +27,13 @@ Logical topology refers to how data is transmitted between devices in a network,
 ### Key Difference
 - Physical topology: The actual structure and hardware arrangement of the network.
 - Logical topology: The functional operation and data transmission within the network.
+---
+We can divide the entire network topology area into three areas:
+1. Connections :
+![image](https://github.com/user-attachments/assets/bd047e21-d28f-4208-9bf9-4946e330d9f1)
+2. Nodes - Network Interface Controller (NICs) :
+![image](https://github.com/user-attachments/assets/5e79aabf-d44d-471c-be8a-aa89a190697f)
+Network nodes are the transmission medium's connection points to transmitters and receivers of electrical, optical, or radio signals in the medium. A node may be connected to a computer, but certain types may have only one microcontroller on a node or may have no programmable device at all.
+3. 
+
+
