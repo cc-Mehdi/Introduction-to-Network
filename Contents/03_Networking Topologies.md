@@ -78,3 +78,33 @@ A logical ring topology is based on a physical star topology, where a distributo
 The information is transmitted in a predetermined transmission direction. Typically, the transmission medium is accessed sequentially from station to station using a retrieval system from the central station or a token. A token is a bit pattern that continually passes through a ring network in one direction, which works according to the claim token process.
 
 ![image](https://github.com/user-attachments/assets/9ec76d15-4057-4d76-b55c-8fd6dc35606f)
+
+## Mesh
+
+Many nodes decide about the connections on a physical level and the routing on a logical level in meshed networks. Therefore, meshed structures have no fixed topology. There are two basic structures from the basic concept: the fully meshed and the partially meshed structure.
+
+Each host is connected to every other host in the network in a fully meshed structure. This means that the hosts are meshed with each other. This technique is primarily used in WAN or MAN to ensure high reliability and bandwidth.
+
+In this setup, important network nodes such as routers could be networked together. If one router fails, the others can continue to work without problems, and the network can absorb the failure due to the many connections.
+
+In the partially meshed structure, the endpoints are connected by only one connection. In this type of network topology, specific nodes are connected to exactly one other node, and some other nodes are connected to two or more other nodes with a point-to-point connection.
+
+![image](https://github.com/user-attachments/assets/ea2cd3c6-0cf8-41f0-8d82-3115a4d234e5)
+
+## Tree
+
+The tree topology is an extended star topology that more extensive local networks have in this structure. This is especially useful when several topologies are combined. This topology is often used, for example, in larger company buildings.
+
+There are both logical tree structures according to the spanning tree and physical ones. Modular modern networks, based on structured cabling with a hub hierarchy, also have a tree structure. Tree topologies are also used for broadband networks and city networks (MAN).
+
+![image](https://github.com/user-attachments/assets/dbcec4ed-973b-402e-9b62-b19912e10bd1)
+
+## Hybrid
+
+Hybrid networks combine two or more topologies so that the resulting network does not present any standard topologies. For example, a tree network can represent a hybrid topology in which star networks are connected via interconnected bus networks. However, a tree network that is linked to another tree network is still topologically a tree network. A hybrid topology is always created when two different basic network topologies are interconnected.
+
+![image](https://github.com/user-attachments/assets/97e5132a-40eb-4375-847d-7e466599d64f)
+
+
+
+
