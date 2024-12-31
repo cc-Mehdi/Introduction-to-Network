@@ -34,6 +34,16 @@ We can divide the entire network topology area into three areas:
 2. Nodes - Network Interface Controller (NICs) :
 ![image](https://github.com/user-attachments/assets/5e79aabf-d44d-471c-be8a-aa89a190697f)
 Network nodes are the transmission medium's connection points to transmitters and receivers of electrical, optical, or radio signals in the medium. A node may be connected to a computer, but certain types may have only one microcontroller on a node or may have no programmable device at all.
-3. 
+3. Classifications
+We can imagine a topology as a virtual form or structure of a network. This form does not necessarily correspond to the actual physical arrangement of the devices in the network. Therefore these topologies can be either physical or logical. For example, the computers on a LAN may be arranged in a circle in a bedroom, but it is very unlikely to have an actual ring topology.
+---
+Network topologies are divided into the following eight basic types:
+![image](https://github.com/user-attachments/assets/b7dea406-694a-4539-8fd2-88020138a10c)
+More complex networks can be built as hybrids of two or more of the basic topologies mentioned above.
+---
+
+
+
+
 
 
