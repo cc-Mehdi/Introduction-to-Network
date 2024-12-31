@@ -105,6 +105,15 @@ Hybrid networks combine two or more topologies so that the resulting network doe
 
 ![image](https://github.com/user-attachments/assets/97e5132a-40eb-4375-847d-7e466599d64f)
 
+## Daisy Chain
+
+In the daisy chain topology, multiple hosts are connected by placing a cable from one node to another.
+
+Since this creates a chain of connections, it is also known as a daisy-chain configuration in which multiple hardware components are connected in a series. This type of networking is often found in automation technology (CAN).
+
+Daisy chaining is based on the physical arrangement of the nodes, in contrast to token procedures, which are structural but can be made independent of the physical layout. The signal is sent to and from a component via its previous nodes to the computer system.
+
+![image](https://github.com/user-attachments/assets/62c0d058-fdc1-4486-b1f6-b2b984afd4a3)
 
 
 
