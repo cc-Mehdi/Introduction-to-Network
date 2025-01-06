@@ -58,4 +58,10 @@ Another common Reverse Proxy is [ModSecurity](https://modsecurity.org/), a [Web 
 
 ![image](https://github.com/user-attachments/assets/d2312fce-e684-4b8a-92d9-c83cac494ac3)
 
+## (Non-) Transparent Proxy
 
+All these proxy services act either **transparently** or **non-transparently**.
+
+With a **transparent proxy**, the client doesn't know about its existence. The transparent proxy intercepts the client's communication requests to the Internet and acts as a substitute instance. To the outside, the transparent proxy, like the non-transparent proxy, acts as a communication partner.
+
+If it is a **non-transparent proxy**, we must be informed about its existence. For this purpose, we and the software we want to use are given a special proxy configuration that ensures that traffic to the Internet is first addressed to the proxy. If this configuration does not exist, we cannot communicate via the proxy. However, since the proxy usually provides the only communication path to other networks, communication to the Internet is generally cut off without a corresponding proxy configuration.
