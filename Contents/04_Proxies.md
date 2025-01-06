@@ -52,3 +52,10 @@ As you may have guessed, a **reverse proxy**, is the reverse of a **Forward Prox
 
 Many organizations use CloudFlare as they have a robust network that can withstand most DDOS Attacks. By using Cloudflare, organizations have a way to filter the amount (and type) of traffic that gets sent to their webservers.
 
+Penetration Testers will configure reverse proxies on infected endpoints. The infected endpoint will listen on a port and send any client that connects to the port back to the attacker through the infected endpoint. This is useful to bypass firewalls or evade logging. Organizations may have [IDS (Intrusion Detection Systems)](https://en.wikipedia.org/wiki/Intrusion_detection_system), watching external web requests. If the attacker gains access to the organization over SSH, a reverse proxy can send web requests through the SSH Tunnel and evade the IDS.
+
+Another common Reverse Proxy is [ModSecurity](https://modsecurity.org/), a [Web Application Firewall (WAF)](https://www.cloudflare.com/learning/ddos/glossary/web-application-firewall-waf/). Web Application Firewalls inspect web requests for malicious content and block the request if it is malicious. If you want to learn more about this, we recommend reading into the [ModSecurity Core Rule Set](https://owasp.org/www-project-modsecurity-core-rule-set/), as its a great starting point. Cloudflare, also can act as a WAF but doing so requires letting them decrypt HTTPS Traffic, which some organizations may not want.
+
+![image](https://github.com/user-attachments/assets/d2312fce-e684-4b8a-92d9-c83cac494ac3)
+
+
