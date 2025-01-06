@@ -46,3 +46,9 @@ Another example of a Forward Proxy is [Burp Suite](https://www.geeksforgeeks.org
 
 ![image](https://github.com/user-attachments/assets/74174c18-9fa6-41da-aed3-d63794427b0c)
 
+## Reverse Proxy
+
+As you may have guessed, a **reverse proxy**, is the reverse of a **Forward Proxy**. Instead of being designed to filter outgoing requests, it filters incoming ones. The most common goal with a Reverse Proxy, is to listen on an address and forward it to a closed-off network.
+
+Many organizations use CloudFlare as they have a robust network that can withstand most DDOS Attacks. By using Cloudflare, organizations have a way to filter the amount (and type) of traffic that gets sent to their webservers.
+
