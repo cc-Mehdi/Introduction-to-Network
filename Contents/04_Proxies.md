@@ -40,4 +40,9 @@ For example, in a corporate network, sensitive computers may not have direct acc
 
 Web Browsers like Internet Explorer, Edge, or Chrome all obey the "System Proxy" settings by default. If the malware utilizes [WinSock](https://en.wikipedia.org/wiki/Winsock) (Native Windows API), it will likely be proxy aware without any additional code. Firefox does not use WinSock and instead uses [libcurl](https://curl.se/libcurl/), which enables it to use the same code on any operating system. This means that the malware would need to look for Firefox and pull the proxy settings, which malware is highly unlikely to do.
 
+Alternatively, malware could use DNS as a [c2 mechanism](https://pentera.io/glossary/command-and-control-c2-attacks/#:~:text=Command%20and%20Control%20(C2)%20refers%20to%20the%20mechanisms%20used%20by,to%20malware%20on%20compromised%20devices.), but if an organization is monitoring DNS (which is easily done using [Sysmon](https://medium.com/falconforce/sysmon-11-dns-improvements-and-filedelete-events-7a74f17ca842) ), this type of traffic should get caught quickly.
+
+Another example of a Forward Proxy is [Burp Suite](https://www.geeksforgeeks.org/what-is-burp-suite/), as most people utilize it to forward HTTP Requests. However, this application is the swiss army knife of HTTP Proxies and can be configured to be a reverse proxy or transparent!
+
+![image](https://github.com/user-attachments/assets/74174c18-9fa6-41da-aed3-d63794427b0c)
 
