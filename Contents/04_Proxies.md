@@ -6,6 +6,15 @@
 
 A proxy, in general, refers to a device or service that acts as an intermediary in communication between two parties. The key role of being an intermediary in a proxy is that the middle device must be able to inspect the contents of the traffic. If the middle device simply passes the traffic through without inspection, it is called a Gateway, not a proxy.
 
+## Difference Between VPN and Proxy:
+
+Many people mistakenly think that changing an IP address means using a proxy. However, a VPN (Virtual Private Network) is more commonly used for changing geographical location and encrypting traffic. But a VPN in most cases is not a proxy, because it doesn’t act as an intermediary for inspecting content; instead, it encrypts and tunnels the traffic.
+
+
+## OSI Layer and Proxy:
+
+A proxy typically operates at Layer 7 (Application Layer) of the OSI model, as it deals with inspecting content (such as HTTP requests). This differentiates it from a Gateway or VPN, which may operate at lower layers, such as Layer 3 (Network Layer).
+
 ## Types of Proxies:
 
 1. Dedicated Proxy / Forward Proxy
@@ -23,11 +32,12 @@ A proxy, in general, refers to a device or service that acts as an intermediary 
 - It is often used by organizations for traffic control or monitoring.
 
 
-## Difference Between VPN and Proxy:
+## Dedicated Proxy / Forward Proxy
 
-Many people mistakenly think that changing an IP address means using a proxy. However, a VPN (Virtual Private Network) is more commonly used for changing geographical location and encrypting traffic. But a VPN in most cases is not a proxy, because it doesn’t act as an intermediary for inspecting content; instead, it encrypts and tunnels the traffic.
+The **Forward Proxy**, is what most people imagine a proxy to be. A Forward Proxy is when a client makes a request to a computer, and that computer carries out the request.
+
+For example, in a corporate network, sensitive computers may not have direct access to the Internet. To access a website, they must go through a proxy (or web filter). This can be an incredibly powerful line of defense against malware, as not only does it need to bypass the web filter (easy), but it would also need to be proxy aware or use a non-traditional C2 (a way for malware to receive tasking information). If the organization only utilizes FireFox, the likelihood of getting proxy-aware malware is improbable.
+
+Web Browsers like Internet Explorer, Edge, or Chrome all obey the "System Proxy" settings by default. If the malware utilizes [WinSock](https://en.wikipedia.org/wiki/Winsock) (Native Windows API), it will likely be proxy aware without any additional code. Firefox does not use WinSock and instead uses [libcurl](https://curl.se/libcurl/), which enables it to use the same code on any operating system. This means that the malware would need to look for Firefox and pull the proxy settings, which malware is highly unlikely to do.
 
 
-## OSI Layer and Proxy:
-
-A proxy typically operates at Layer 7 (Application Layer) of the OSI model, as it deals with inspecting content (such as HTTP requests). This differentiates it from a Gateway or VPN, which may operate at lower layers, such as Layer 3 (Network Layer).
