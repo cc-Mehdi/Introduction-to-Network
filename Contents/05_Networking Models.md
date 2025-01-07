@@ -16,3 +16,21 @@ The term **OSI** stands for **Open Systems Interconnection** model, published by
 
 For example, **ICMP (Internet Control Message Protocol)** or **UDP (User Datagram Protocol)** belongs to the protocol family. The protocol family provides the necessary functions for transporting and switching data packets in a private or public network.
 
+## ISO/OSI vs TCP/IP
+
+**TCP/IP** is a communication protocol that allows hosts to connect to the Internet. It refers to the **Transmission Control Protocol** used in and by applications on the Internet. In contrast to **OSI**, it allows a lightening of the rules that must be followed, provided that general guidelines are followed.
+
+**OSI**, on the other hand, is a communication gateway between the network and end-users. The OSI model is usually referred to as the reference model because it is newer and more widely used. It is also known for its strict protocol and limitations.
+
+## Packet Transfers
+
+In a layered system, devices in a layer exchange data in a different format called a **protocol data unit (PDU)**.
+
+For example, when we want to browse a website on the computer, the remote server software first passes the requested data to the application layer. It is processed layer by layer, each layer performing its assigned functions. The data is then transferred through the network's physical layer until the destination server or another device receives it. The data is routed through the layers again, with each layer performing its assigned operations until the receiving software uses the data.
+
+![image](https://github.com/user-attachments/assets/aaa450a6-bdaa-439f-a140-23d969cebca3)
+
+During the transmission, each layer adds a **header** to the **PDU** from the upper layer, which controls and identifies the packet. This process is called **encapsulation**. 
+
+
+
