@@ -32,5 +32,6 @@ For example, when we want to browse a website on the computer, the remote server
 
 During the transmission, each layer adds a **header** to the **PDU** from the upper layer, which controls and identifies the packet. This process is called **encapsulation**. 
 
+The header and the data together form the PDU for the next layer. The process continues to the **Physical Layer** or **Network Layer**, where the data is transmitted to the receiver. The receiver reverses the process and unpacks the data on each layer with the header information. After that, the application finally uses the data. This process continues until all data has been sent and received.
 
-
+![image](https://github.com/user-attachments/assets/e466996c-57a2-4f54-9617-73e483460d76)
