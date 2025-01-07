@@ -7,3 +7,6 @@ Two networking models describe the communication and transfer of data from one h
 ## The OSI Model
 
 The **OSI** model, often referred to as **ISO/OSI** layer model, is a reference model that can be used to describe and define the communication between systems. The reference model has **seven** individual layers, each with clearly separated tasks.
+
+The term **OSI** stands for **Open Systems Interconnection** model, published by the **International Telecommunication Union (ITU**) and the **International Organization for Standardization (ISO)**. Therefore, the **OSI** model is often referred to as the **ISO/OSI** layer model.
+
