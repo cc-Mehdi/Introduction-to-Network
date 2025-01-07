@@ -34,4 +34,5 @@ During the transmission, each layer adds a **header** to the **PDU** from the up
 
 The header and the data together form the PDU for the next layer. The process continues to the **Physical Layer** or **Network Layer**, where the data is transmitted to the receiver. The receiver reverses the process and unpacks the data on each layer with the header information. After that, the application finally uses the data. This process continues until all data has been sent and received.
 
-![image](https://github.com/user-attachments/assets/e466996c-57a2-4f54-9617-73e483460d76)
+![image](https://github.com/user-attachments/assets/d1a2cf2d-325c-4b96-a4fa-2d89f7eadbce)
+
