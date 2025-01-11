@@ -26,6 +26,7 @@ Here’s how it works:
 
 When two systems communicate:
 
-The **sender’s system** starts at **Layer 7 (the application)** and works its way **down to Layer 1**, adding necessary information at each step.
+1. The **sender’s system** starts at **Layer 7 (the application)** and works its way **down to Layer 1**, adding necessary information at each step.
+2. The **receiver’s system** starts at **Layer 1** and works its way **up to Layer 7**, unpacking the information added by each layer.
 
 This process happens twice: once for sending and once for receiving. The layers ensure the communication is secure, reliable, and efficient.
