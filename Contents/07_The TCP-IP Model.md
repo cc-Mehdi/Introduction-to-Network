@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/9faeb226-8f1f-4afc-83d2-17c4dee8f5b7)# The TCP/IP Model
+# The TCP/IP Model
 
 The **TCP/IP** model is also a layered reference model, often referred to as the **Internet Protocol Suite**. The term **TCP/IP** stands for the two protocols **Transmission Control Protocol (TCP)** and **Internet Protocol (IP)**. **IP** is located within the **network layer (Layer 3)** and **TCP** is located within the **transport layer (Layer 4)** of the **OSI** layer model.
 
