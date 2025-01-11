@@ -1,1 +1,3 @@
-Empty File
+# Network Layer
+
+The **network layer (Layer 3)** of **OSI** controls the exchange of data packets, as these cannot be directly routed to the receiver and therefore have to be provided with routing nodes. The data packets are then transferred from node to node until they reach their target. To implement this, the **network layer** identifies the individual network nodes, sets up and clears connection channels, and takes care of routing and data flow control. When sending the packets, addresses are evaluated, and the data is routed through the network from node to node. There is usually no processing of the data in the layers above the **L3** in the nodes. Based on the addresses, the routing and the construction of routing tables are done.
