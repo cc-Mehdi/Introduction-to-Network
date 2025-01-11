@@ -12,3 +12,20 @@ When an application sends a packet to the other system, the system works the lay
 
 ![image](https://github.com/user-attachments/assets/c309b73e-ef42-403a-822b-240e381fd93a)
 
+## Simplifyed Description
+
+The **OSI model** is like a step-by-step guide for computers to communicate. It has **7 layers**, and each layer has a specific job. These layers are split into two groups:
+
+- **Layers 2-4 (transport-oriented):** Handle the movement of data between devices.
+- **Layers 5-7 (application-oriented):** Focus on how applications interact with data.
+
+Here’s how it works:
+
+1. **Each layer does its own job** and works with the layers above and below it.
+2. The layer **uses services from the one below** and provides services to the one above. Think of it like a team passing a ball from one player to the next.
+
+When two systems communicate:
+
+The **sender’s system** starts at **Layer 7 (the application)** and works its way **down to Layer 1**, adding necessary information at each step.
+
+This process happens twice: once for sending and once for receiving. The layers ensure the communication is secure, reliable, and efficient.
