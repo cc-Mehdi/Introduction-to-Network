@@ -9,6 +9,26 @@ It does not matter whether it is a smaller network, such as a home computer netw
 - **IPv4** / **IPv6** - describes the unique postal address and district of the receiver's building.
 - **MAC** - describes the exact floor and apartment of the receiver.
 
+It is possible for a single IP address to address multiple receivers (broadcasting) or for a device to respond to multiple IP addresses. However, it must be ensured that each IP address is assigned only once within the network.
+
+
+## IPv4 Structure
+
+The most common method of assigning IP addresses is **IPv4**, which consists of a **32**-bit binary number combined into **4 bytes** consisting of **8**-bit groups (**octets**) ranging from **0-255**. These are converted into more easily readable decimal numbers, separated by dots and represented as dotted-decimal notation.
+
+Thus an IPv4 address can look like this:
+
+![image](https://github.com/user-attachments/assets/334ea9cf-20b4-4607-93d0-9c6d4e8c0b4f)
+
+
+
+
+
+
+
+
+
+
 ![image](https://github.com/user-attachments/assets/d5addb2e-2af9-4fde-a069-16b1f43bc24e)
 ![image](https://github.com/user-attachments/assets/ec4b8467-1470-447d-a679-11ed75f212e0)
 
