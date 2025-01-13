@@ -23,7 +23,11 @@ Thus an IPv4 address can look like this:
 Each network interface (network cards, network printers, or routers) is assigned a **unique** IP address.
 
 
-The **IPv4** format allows 4,294,967,296 unique addresses. The IP address is divided into a **host part** and a **network part**. The **router** assigns the **host part** of the IP address at home or by an administrator. The respective **network administrator** assigns the **network part**. On the Internet, this is [IANA (Internet Assigned Numbers Authority)](https://www.iana.org/), which allocates and manages the unique IPs.
+The **IPv4** format allows 4,294,967,296 unique addresses. The IP address is divided into a **host part** and a **network part**. The **router** assigns the **host part** of the IP address at home or by an administrator. The respective **network administrator** assigns the **network part**. On the Internet, this is **IANA** [(Internet Assigned Numbers Authority)](https://www.iana.org/), which allocates and manages the unique IPs.
+
+In the past, further classification took place here. The IP network blocks were divided into **classes A - E**. The different classes differed in the host and network shares' respective lengths.
+
+![image](https://github.com/user-attachments/assets/dde16279-abf2-4a23-8346-024cd3697967)
 
 
 ---
