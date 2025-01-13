@@ -9,3 +9,6 @@ It does not matter whether it is a smaller network, such as a home computer netw
 - **IPv4** / **IPv6** - describes the unique postal address and district of the receiver's building.
 - **MAC** - describes the exact floor and apartment of the receiver.
 
+![image](https://github.com/user-attachments/assets/d5addb2e-2af9-4fde-a069-16b1f43bc24e)
+![image](https://github.com/user-attachments/assets/ec4b8467-1470-447d-a679-11ed75f212e0)
+
