@@ -20,14 +20,14 @@ Thus an IPv4 address can look like this:
 
 ![image](https://github.com/user-attachments/assets/334ea9cf-20b4-4607-93d0-9c6d4e8c0b4f)
 
+Each network interface (network cards, network printers, or routers) is assigned a **unique** IP address.
 
 
+The **IPv4** format allows 4,294,967,296 unique addresses. The IP address is divided into a **host part** and a **network part**. The **router** assigns the **host part** of the IP address at home or by an administrator. The respective **network administrator** assigns the **network part**. On the Internet, this is [IANA (Internet Assigned Numbers Authority)](https://www.iana.org/), which allocates and manages the unique IPs.
 
 
-
-
-
-
+---
+## More Information
 
 ![image](https://github.com/user-attachments/assets/d5addb2e-2af9-4fde-a069-16b1f43bc24e)
 ![image](https://github.com/user-attachments/assets/ec4b8467-1470-447d-a679-11ed75f212e0)
