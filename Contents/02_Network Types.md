@@ -20,7 +20,7 @@ WLAN (Wireless Local Area Network): Similar to a LAN, but with the capability to
 
 MAN (Metropolitan Area Network): A network that covers a larger area than a LAN but is not as vast as a WAN. Typically, it connects multiple LANs within a city or campus, facilitating communication between branches of an organization or public systems like city-wide Wi-Fi.
 
-PAN (Personal Area Network): A very localized network used for connecting devices around an individual, such as Bluetooth connections between a smartphone and a headset or a laptop and a mouse.
+PAN (Personal Area Network): A very localized network used for connecting devices around an individual, such as Bluetooth connections between a smartphone and a headset or a laptop and a house.
 
 ### 2. Book Terms:
 These terms are more academic or less commonly used outside specialized discussions or exams:
