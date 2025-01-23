@@ -33,6 +33,12 @@ In the past, further classification took place here. The IP network blocks were 
 
 A further separation of these classes into small networks is done with the help of **subnetting**. This separation is done using the **netmasks**, which is as long as an IPv4 address. As with classes, it describes which bit positions within the IP address act as **network part** or **host part**.
 
+![image](https://github.com/user-attachments/assets/3bd8ab9b-0390-45a1-9c78-3752a2fd13e4)
+
+## Network and Gateway Addresses
+
+The **two** additional **IPs** added in the **IPs column** are reserved for the so-called **network address** and the **broadcast address**. Another important role plays the **default gateway**, which is the name for the IPv4 address of the **router** that couples networks and systems with different protocols and manages addresses and transmission methods. It is common for the **default gateway** to be assigned the first or last assignable IPv4 address in a subnet. This is not a technical requirement, but has become a de-facto standard in network environments of all sizes.
+
 
 ---
 ## More Information
