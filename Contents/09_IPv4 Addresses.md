@@ -49,6 +49,20 @@ The **broadcast** IP address's task is to connect all devices in a network with 
 
 ## Binary system
 
+The binary system is a number system that uses only two different states that are represented into two numbers (**0** and **1**) opposite to the decimal-system (0 to 9).
+
+An IPv4 address is divided into 4 octets, as we have already seen. Each **octet** consists of **8 bits**. Each position of a bit in an octet has a specific decimal value. Let's take the following IPv4 address as an example:
+
+- IPv4 Address: **192.168.10.39**
+
+Here is an example of how the **first octet** looks like:
+
+### 1st Octet - Value: 192
+
+![image](https://github.com/user-attachments/assets/eeb5b750-49e5-4c6c-aaee-2dfb9dce7bd4)
+
+
+
 ---
 ## More Information
 
