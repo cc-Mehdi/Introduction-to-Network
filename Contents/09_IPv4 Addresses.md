@@ -113,6 +113,35 @@ The CIDR suffix is, therefore, the sum of all ones in the subnet mask.
 
 
 ### CIDR
+#### What is CIDR?
+CIDR (Classless Inter-Domain Routing) is a way to describe and organize IP addresses and networks. It replaces the old system where IP addresses were divided into fixed groups (Classes A, B, C, etc.).
+Instead of using those fixed groups, CIDR uses a number called the CIDR suffix (e.g., /24) to show how much of the IP address belongs to the "network" part and how much is for individual devices.
 
+#### What’s the CIDR Suffix?
+The CIDR suffix is the number of 1s in the subnet mask.
+A subnet mask is just a way to divide an IP address into two parts:
 
+- Network part (shared by all devices in the same network)
+- Host part (unique to each device in the network)
 
+For example:
+
+**Subnet mask:** 255.255.255.0
+
+- In binary, this is `11111111.11111111.11111111.00000000`.
+- It has 24 ones, so the CIDR suffix is **/24**.
+
+So, instead of writing an IP address and subnet mask separately, we write:
+`192.168.10.39/24`
+
+#### Example Breakdown
+
+Let’s use the example you gave:
+- **IP Address:** 192.168.10.39
+- **Subnet Mask:** 255.255.255.0
+- **CIDR Notation:** 192.168.10.39/24
+
+This means:
+
+1. The first 24 bits of the IP address (`192.168.10`) belong to the network part.
+2. The remaining 8 bits (the `.39`) are for devices (hosts) within that network.
