@@ -41,6 +41,10 @@ The **two** additional **IPs** added in the **IPs column** are reserved for the 
 
 ![image](https://github.com/user-attachments/assets/334d9561-5166-478b-8781-dc6a4d8d1770)
 
+## Broadcast Address
+
+The **broadcast** IP address's task is to connect all devices in a network with each other. **Broadcast** in a network is a message that is transmitted to all participants of a network and does not require any response. In this way, a host sends a data packet to all other participants of the network simultaneously and, in doing so, communicates its **IP address**, which the receivers can use to contact it. This is the **last IPv4** address that is used for the **broadcast**.
+
 ---
 ## More Information
 
