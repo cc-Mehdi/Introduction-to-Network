@@ -79,6 +79,13 @@ This addition takes place for each octet, which results in a decimal representat
 
 ![image](https://github.com/user-attachments/assets/9df5dfcb-7052-4ff6-b4a2-ecd6dbfc3fd5)
 
+### Subnet Mask
+
+![image](https://github.com/user-attachments/assets/0ba343eb-b1c3-4e7e-aa61-9c1bd3ffca4a)
+
+- IPv4 Address: **192.168.10.39**
+- Subnet mask: **255.255.255.0**
+
 
 
 ---
