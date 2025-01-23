@@ -29,6 +29,10 @@ In the past, further classification took place here. The IP network blocks were 
 
 ![image](https://github.com/user-attachments/assets/dde16279-abf2-4a23-8346-024cd3697967)
 
+## Subnet Mask
+
+A further separation of these classes into small networks is done with the help of **subnetting**. This separation is done using the **netmasks**, which is as long as an IPv4 address. As with classes, it describes which bit positions within the IP address act as **network part** or **host part**.
+
 
 ---
 ## More Information
