@@ -65,7 +65,13 @@ If we calculate the sum of all these values for each octet where the bit is set 
 
 ![image](https://github.com/user-attachments/assets/a00ca544-6c45-4775-9fec-8a03162df9c4)
 
+The entire representation from binary to decimal would look like this:
 
+![image](https://github.com/user-attachments/assets/f7a242ef-9ddd-4a9f-b3e0-4b59e946b4af)
+
+- IPv4 Address: **192.168.10.39**
+
+This addition takes place for each octet, which results in a decimal representation of the **IPv4 address**. The subnet mask is calculated in the same way.
 
 ---
 ## More Information
