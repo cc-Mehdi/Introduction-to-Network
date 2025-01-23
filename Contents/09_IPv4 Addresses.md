@@ -86,11 +86,33 @@ This addition takes place for each octet, which results in a decimal representat
 - IPv4 Address: **192.168.10.39**
 - Subnet mask: **255.255.255.0**
 
+### CIDR
 
+**Classless Inter-Domain Routing** (**CIDR**) is a method of representation and replaces the fixed assignment between IPv4 address and network classes (A, B, C, D, E). he division is based on the subnet mask or the so-called **CIDR suffix**, which allows the bitwise division of the IPv4 address space and thus into **subnets** of any size. he **CIDR suffix** indicates how many bits from the beginning of the IPv4 address belong to the network. It is a notation that represents the **subnet mask** by specifying the number of **1**-bits in the subnet mask.
+
+Let us stick to the following IPv4 address and subnet mask as an example:
+
+- IPv4 Address: **192.168.10.39**
+- Subnet mask: **255.255.255.0**
+
+Now the whole representation of the IPv4 address and the subnet mask would look like this:
+
+- CIDR: **192.168.10.39/24**
+
+The CIDR suffix is, therefore, the sum of all ones in the subnet mask.
+
+![image](https://github.com/user-attachments/assets/892b9a3e-8b80-43d9-9276-d605acf799b1)
+
+**(you can read with more simple description of this topic (CIDR) that generated with AI)**
 
 ---
 ## More Information
 
 ![image](https://github.com/user-attachments/assets/d5addb2e-2af9-4fde-a069-16b1f43bc24e)
 ![image](https://github.com/user-attachments/assets/ec4b8467-1470-447d-a679-11ed75f212e0)
+
+
+### CIDR
+
+
 
