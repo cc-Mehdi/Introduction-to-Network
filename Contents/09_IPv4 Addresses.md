@@ -61,6 +61,10 @@ Here is an example of how the **first octet** looks like:
 
 ![image](https://github.com/user-attachments/assets/eeb5b750-49e5-4c6c-aaee-2dfb9dce7bd4)
 
+If we calculate the sum of all these values for each octet where the bit is set to 1, we get the sum:
+
+![image](https://github.com/user-attachments/assets/a00ca544-6c45-4775-9fec-8a03162df9c4)
+
 
 
 ---
