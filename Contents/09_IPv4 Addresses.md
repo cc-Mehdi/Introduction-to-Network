@@ -39,6 +39,7 @@ A further separation of these classes into small networks is done with the help 
 
 The **two** additional **IPs** added in the **IPs column** are reserved for the so-called **network address** and the **broadcast address**. Another important role plays the **default gateway**, which is the name for the IPv4 address of the **router** that couples networks and systems with different protocols and manages addresses and transmission methods. It is common for the **default gateway** to be assigned the first or last assignable IPv4 address in a subnet. This is not a technical requirement, but has become a de-facto standard in network environments of all sizes.
 
+![image](https://github.com/user-attachments/assets/334d9561-5166-478b-8781-dc6a4d8d1770)
 
 ---
 ## More Information
