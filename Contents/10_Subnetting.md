@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/f3974c57-b51c-4b81-8ddd-80a6919f5091)# Subnetting 
+# Subnetting 
 
 ![image](https://github.com/user-attachments/assets/7b9181f6-3c06-4d9a-904f-1ceb0531bc74)
 
@@ -63,3 +63,15 @@ Let us now assume that we, as administrators, have been given the task of dividi
 
 ![image](https://github.com/user-attachments/assets/41371a2b-32d3-4c64-97a6-be047649f60e)
 
+Therefore we can divide the 64 hosts we know by 4. The 4 is equal to the exponent 2^2 in the binary system, so we find out the number of bits for the subnet mask by which we have to extend it. So we know the following parameters:
+
+- Subnet: **192.168.12.128/26**
+- Required Subnets: **4**
+
+Now we increase/expand our subnet mask by **2 bits** from **/26** to **/28**, and it looks like this:
+
+![image](https://github.com/user-attachments/assets/f00fe1fa-8a9d-43c9-9405-d4938f93a0a3)
+
+Next, we can divide the **64** IPv4 addresses that are available to us into **4 parts**:
+
+![image](https://github.com/user-attachments/assets/223fd0d3-55e4-4de7-8e67-001e25ddaffe)
