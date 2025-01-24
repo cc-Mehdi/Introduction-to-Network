@@ -27,3 +27,9 @@ We already know that an IP address is divided into the **network part** and the 
 
 In subnetting, we use the subnet mask as a template for the IPv4 address. From the **1**-bits in the subnet mask, we know which bits in the IPv4 address **cannot** be changed. These are **fixed** and therefore determine the "main network" in which the subnet is located.
 
+### Host Part
+
+![image](https://github.com/user-attachments/assets/2e8e5016-aaa6-4be1-97a1-fc53d02c1eee)
+
+The bits in the **host part** can be changed to the **first** and **last** address. The first address is the **network address**, and the last address is the **broadcast address** for the respective subnet.
+
