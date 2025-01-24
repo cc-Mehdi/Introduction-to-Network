@@ -1,5 +1,8 @@
 # Subnetting 
 
+![image](https://github.com/user-attachments/assets/7b9181f6-3c06-4d9a-904f-1ceb0531bc74)
+
+
 The division of an address range of IPv4 addresses into several smaller address ranges is called **subnetting**.
 
 A subnet is a logical segment of a network that uses IP addresses with the same network address. We can think of a subnet as a labeled entrance on a large building corridor. For example, this could be a glass door that separates various departments of a company building. With the help of subnetting, we can create a specific subnet by ourselves or find out the following outline of the respective network:
