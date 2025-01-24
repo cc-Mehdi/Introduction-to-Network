@@ -103,7 +103,7 @@ The CIDR suffix is, therefore, the sum of all ones in the subnet mask.
 
 ![image](https://github.com/user-attachments/assets/892b9a3e-8b80-43d9-9276-d605acf799b1)
 
-**(you can read with more simple description of this topic (CIDR) that generated with AI)**
+**(you can read with more simple description of this topic (CIDR) that generated with AI in ([More Information](#CIDR))**
 
 ---
 ## More Information
