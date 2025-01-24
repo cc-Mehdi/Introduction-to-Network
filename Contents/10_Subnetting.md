@@ -75,3 +75,7 @@ Now we increase/expand our subnet mask by **2 bits** from **/26** to **/28**, an
 Next, we can divide the **64** IPv4 addresses that are available to us into **4 parts**:
 
 ![image](https://github.com/user-attachments/assets/223fd0d3-55e4-4de7-8e67-001e25ddaffe)
+
+So we know how big each subnet will be. From now on, we start from the network address given to us (192.168.12.128) and add the **16** hosts **4** times:
+
+![image](https://github.com/user-attachments/assets/a06521db-f303-4396-832d-80128d6891af)
