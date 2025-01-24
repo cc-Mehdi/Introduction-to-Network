@@ -33,3 +33,6 @@ In subnetting, we use the subnet mask as a template for the IPv4 address. From t
 
 The bits in the **host part** can be changed to the **first** and **last** address. The first address is the **network address**, and the last address is the **broadcast address** for the respective subnet.
 
+The **network address** is vital for the delivery of a data packet. If the **network address** is the same for the source and destination address, the data packet is delivered within the same subnet. If the network addresses are different, the data packet must be routed to another subnet via the **default gateway**.
+
+The **subnet mask** determines where this separation occurs.
