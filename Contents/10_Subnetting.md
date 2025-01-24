@@ -4,12 +4,11 @@ The division of an address range of IPv4 addresses into several smaller address 
 
 A subnet is a logical segment of a network that uses IP addresses with the same network address. We can think of a subnet as a labeled entrance on a large building corridor. For example, this could be a glass door that separates various departments of a company building. With the help of subnetting, we can create a specific subnet by ourselves or find out the following outline of the respective network:
 
-**- Network address
+- Network address
 - Broadcast address
 - First host
 - Last host
 - Number of hosts
-**
 
 Let us take the following IPv4 address and subnet mask as an example:
 
@@ -19,4 +18,9 @@ Let us take the following IPv4 address and subnet mask as an example:
 
 We already know that an IP address is divided into the **network part** and the **host part**.
 
+### Network Part
+
+![image](https://github.com/user-attachments/assets/ff619ad7-a618-4bf2-8419-c4a3f233758a)
+
+In subnetting, we use the subnet mask as a template for the IPv4 address. From the **1**-bits in the subnet mask, we know which bits in the IPv4 address **cannot** be changed. These are **fixed** and therefore determine the "main network" in which the subnet is located.
 
