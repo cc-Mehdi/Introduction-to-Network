@@ -47,3 +47,12 @@ So if we now set all bits to **0** in the **host part** of the IPv4 address, we 
 
 ![image](https://github.com/user-attachments/assets/a203f0c8-19e7-41ae-a1de-27e92e32033b)
 
+### Broadcast Address
+
+If we set all bits in the **host part** of the IPv4 address to **1**, we get the **broadcast address**.
+
+![image](https://github.com/user-attachments/assets/45dbfdd3-ae44-4938-8603-9826334104d5)
+
+Since we now know that the IPv4 addresses **192.168.12.128** and **192.168.12.191** are assigned, all other IPv4 addresses are accordingly between **192.168.12.129-190**. Now we know that this subnet offers us a total of **64 - 2** (network address & broadcast address) or **62** IPv4 addresses that we can assign to our hosts.
+
+![image](https://github.com/user-attachments/assets/b429c77c-a138-4d5f-888b-26b80bf8966f)
