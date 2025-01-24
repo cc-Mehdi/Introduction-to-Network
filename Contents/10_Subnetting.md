@@ -1,4 +1,4 @@
-# Subnetting 
+![image](https://github.com/user-attachments/assets/f3974c57-b51c-4b81-8ddd-80a6919f5091)# Subnetting 
 
 ![image](https://github.com/user-attachments/assets/7b9181f6-3c06-4d9a-904f-1ceb0531bc74)
 
@@ -56,3 +56,10 @@ If we set all bits in the **host part** of the IPv4 address to **1**, we get the
 Since we now know that the IPv4 addresses **192.168.12.128** and **192.168.12.191** are assigned, all other IPv4 addresses are accordingly between **192.168.12.129-190**. Now we know that this subnet offers us a total of **64 - 2** (network address & broadcast address) or **62** IPv4 addresses that we can assign to our hosts.
 
 ![image](https://github.com/user-attachments/assets/b429c77c-a138-4d5f-888b-26b80bf8966f)
+
+### Subnetting Into Smaller Networks
+
+Let us now assume that we, as administrators, have been given the task of dividing the subnet assigned to us into 4 additional subnets. Thus, it is essential to know that we can only divide the subnets based on the binary system.
+
+![image](https://github.com/user-attachments/assets/41371a2b-32d3-4c64-97a6-be047649f60e)
+
