@@ -79,3 +79,17 @@ Next, we can divide the **64** IPv4 addresses that are available to us into **4 
 So we know how big each subnet will be. From now on, we start from the network address given to us (192.168.12.128) and add the **16** hosts **4** times:
 
 ![image](https://github.com/user-attachments/assets/a06521db-f303-4396-832d-80128d6891af)
+
+### Mental Subnetting
+
+It may seem like there is a lot of math involved in subnetting, but each octet repeats itself, and everything is a power of two, so there doesn't have to be a lot of memorization. The first thing to do is identify what octet changes.
+
+![image](https://github.com/user-attachments/assets/7341ab2e-c31a-4af6-84ec-3a4fa940b287)
+
+It is possible to identify what octet of the IP Address may change by remembering those four numbers. Given the Network Address: **192.168.1.1/25**, it is immediately apparent that 192.168.2.4 would not be in the same network because the **/25** subnet means only the fourth octet may change.
+
+![image](https://github.com/user-attachments/assets/ebfde63d-0325-47a1-833e-4c6cb369f37d)
+
+By remembering the powers of two up to eight, it can become an instant calculation. However, if forgotten, it may be quicker to remember to divide 256 in half the number of times of the remainder.
+
+The tricky part of this is getting the actual IP Address range because 0 is a number and not null in networking. So in our **/25** with 128 IP Addresses, the first range is **192.168.1.0-127**. The first address is the network, and the last is the broadcast address, which means the usable IP Space would become **192.168.1.1-126**. If our IP Address fell above 128, then the **usable ip space** would be 192.168.1.129-254 (128 is the network and 255 is the broadcast).
