@@ -26,3 +26,6 @@ The MAC address consists of a total of **6 bytes**. The first half (**3 bytes / 
 
 ![image](https://github.com/user-attachments/assets/7977ec4d-ff60-4e31-b03c-1ee1da97e1b3)
 
+The last half of the MAC address is called the **Individual Address Part** or **Network Interface Controller** (**NIC**), which the manufacturers assign. The manufacturer sets this bit sequence only once and thus ensures that the complete address is unique.
+
+![image](https://github.com/user-attachments/assets/99d63759-5c15-4b58-8f23-f7129d6a8c85)
