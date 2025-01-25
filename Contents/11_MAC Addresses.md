@@ -19,3 +19,10 @@ MAC address:
 - **DEAD.BEEF.1337**
 
 ![image](https://github.com/user-attachments/assets/528a32b8-1288-46a5-bc7d-a15860fe8cdd)
+
+When an IP packet is delivered, it must be addressed on **layer 2** to the destination host's physical address or to the router / NAT, which is responsible for routing. Each packet has a **sender address** and a **destination address**.
+
+The MAC address consists of a total of **6 bytes**. The first half (**3 bytes / 24 bit**) is the so-called **Organization Unique Identifier** (**OUI**) defined by the **Institute of Electrical and Electronics Engineers** (**IEEE**) for the respective manufacturers.
+
+![image](https://github.com/user-attachments/assets/7977ec4d-ff60-4e31-b03c-1ee1da97e1b3)
+
