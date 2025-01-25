@@ -49,3 +49,17 @@ The defined values of each octet are marked **green**.
 ### MAC Multicast
 
 ![image](https://github.com/user-attachments/assets/c0525292-e6e0-4385-803b-ce551aa78189)
+
+### MAC Broadcast
+
+![image](https://github.com/user-attachments/assets/92b918d3-3268-4701-af08-4ad9ec97e077)
+
+The second last bit in the first octet identifies whether it is a **global OUI**, defined by the IEEE, or a **locally administrated** MAC address.
+
+### Global OUI
+
+![image](https://github.com/user-attachments/assets/559c07ef-1e8c-421f-a281-e1a6256407dd)
+
+### Locally Administrated
+
+![image](https://github.com/user-attachments/assets/d14cb089-d689-47df-9b87-868f21dddce1)
