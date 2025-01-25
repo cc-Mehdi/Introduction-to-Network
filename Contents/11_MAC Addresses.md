@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/d67f84c2-2258-4fd2-9d95-9f6cc82755ad)# MAC Addresses
+# MAC Addresses
 
 ![image](https://github.com/user-attachments/assets/32196890-25f6-4436-b21f-eadcd81cd7b7)
 
