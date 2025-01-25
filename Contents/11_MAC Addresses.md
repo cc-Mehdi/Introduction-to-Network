@@ -38,4 +38,14 @@ As with IPv4 addresses, there are also certain reserved areas for the MAC addres
 
 Furthermore, the last two bits in the first octet can play another essential role. The last bit can have two states, 0 and 1, as we already know. The last bit identifies the MAC address as **Unicast** (**0**) or **Multicast** (**1**). With **unicast**, it means that the packet sent will reach only one specific host.
 
+### MAC Unicast
 
+![image](https://github.com/user-attachments/assets/cff5b6e2-fbd3-42b1-9f0b-e52a8e1e2d52)
+
+With **multicast**, the packet is sent only once to all hosts on the local network, which then decides whether or not to accept the packet based on their configuration. The **multicast** address is a unique address, just like the **broadcast** address, which has fixed octet values. **Broadcast** in a network represents a broadcasted call, where data packets are transmitted simultaneously from one point to all members of a network. It is mainly used if the address of the receiver of the packet is not yet known. An example is the **ARP** (**for MAC addresses**) and **DHCP** (**for IPv4 addresses**) protocols.
+
+The defined values of each octet are marked **green**.
+
+### MAC Multicast
+
+![image](https://github.com/user-attachments/assets/c0525292-e6e0-4385-803b-ce551aa78189)
