@@ -29,3 +29,13 @@ The MAC address consists of a total of **6 bytes**. The first half (**3 bytes / 
 The last half of the MAC address is called the **Individual Address Part** or **Network Interface Controller** (**NIC**), which the manufacturers assign. The manufacturer sets this bit sequence only once and thus ensures that the complete address is unique.
 
 ![image](https://github.com/user-attachments/assets/99d63759-5c15-4b58-8f23-f7129d6a8c85)
+
+If a host with the IP target address is located in the same subnet, the delivery is made directly to the target computer's physical address. However, if this host belongs to a different subnet, the Ethernet frame is addressed to the **MAC address** of the responsible router (**default gateway**). If the Ethernet frame's destination address matches its own **layer 2 address**, the router will forward the frame to the higher layers. **Address Resolution Protocol** (**ARP**) is used in IPv4 to determine the MAC addresses associated with the IP addresses.
+
+As with IPv4 addresses, there are also certain reserved areas for the MAC address. These include, for example, the local range for the MAC.
+
+![image](https://github.com/user-attachments/assets/a03ea1af-7bb4-415f-831c-39bcd9605b53)
+
+Furthermore, the last two bits in the first octet can play another essential role. The last bit can have two states, 0 and 1, as we already know. The last bit identifies the MAC address as **Unicast** (**0**) or **Multicast** (**1**). With **unicast**, it means that the packet sent will reach only one specific host.
+
+
