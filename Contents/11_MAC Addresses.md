@@ -63,3 +63,13 @@ The second last bit in the first octet identifies whether it is a **global OUI**
 ### Locally Administrated
 
 ![image](https://github.com/user-attachments/assets/d14cb089-d689-47df-9b87-868f21dddce1)
+
+## Address Resolution Protocol
+
+MAC addresses can be changed/manipulated or spoofed, and as such, they should not be relied upon as a sole means of security or identification. Network administrators should implement additional security measures, such as network segmentation and strong authentication protocols, to protect against potential attacks.
+
+There exist several attack vectors that can potentially be exploited through the use of MAC addresses:
+
+- **MAC spoofing:** This involves altering the MAC address of a device to match that of another device, typically to gain unauthorized access to a network.
+- **MAC flooding:** This involves sending many packets with different MAC addresses to a network switch, causing it to reach its MAC address table capacity and effectively preventing it from functioning correctly.
+- **MAC address filtering**: Some networks may be configured only to allow access to devices with specific MAC addresses that we could potentially exploit by attempting to gain access to the network using a spoofed MAC address.
