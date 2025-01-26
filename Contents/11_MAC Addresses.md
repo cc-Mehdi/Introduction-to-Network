@@ -73,3 +73,7 @@ There exist several attack vectors that can potentially be exploited through the
 - **MAC spoofing:** This involves altering the MAC address of a device to match that of another device, typically to gain unauthorized access to a network.
 - **MAC flooding:** This involves sending many packets with different MAC addresses to a network switch, causing it to reach its MAC address table capacity and effectively preventing it from functioning correctly.
 - **MAC address filtering**: Some networks may be configured only to allow access to devices with specific MAC addresses that we could potentially exploit by attempting to gain access to the network using a spoofed MAC address.
+
+## Address Resolution Protocol
+
+Address Resolution Protocol (**ARP**) is a network protocol. It is an important part of the network communication used to resolve a network layer (layer 3) IP address to a link layer (layer 2) MAC address. It maps a host's IP address to its corresponding MAC address to facilitate communication between devices on a Local Area Network (**LAN**). When a device on a LAN wants to communicate with another device, it sends a broadcast message containing the destination IP address and its own MAC address. The device with the matching IP address responds with its own MAC address, and the two devices can then communicate directly using their MAC addresses. This process is known as ARP resolution.
