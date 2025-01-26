@@ -99,3 +99,7 @@ However, it is also vulnerable to attacks, such as [ARP Spoofing](https://en.wik
 **ARP spoofing**, also known as **ARP cache poisoning** or **ARP poison routing**, is an attack that can be done using tools like [Ettercap](https://github.com/Ettercap/ettercap) or [Cain](https://github.com/xchwarze/Cain) & Abel in which we send falsified ARP messages over a LAN. The goal is to associate our MAC address with the IP address of a legitimate device on the company's network, effectively allowing us to intercept traffic intended for the legitimate device. For example, this could look like the following:
 
 ![image](https://github.com/user-attachments/assets/242b6178-5ecd-405b-9994-b55bcad7a5ae)
+
+The first and fourth lines show us (**10.129.12.100**) sending falsified ARP messages to the target, associating its MAC address with its IP address (**10.129.12.101**). The second and third lines show the target sending an ARP request and replying to our MAC address. This indicates that we have poisoned the target's ARP cache and that all traffic intended for the target will now be sent to our MAC address.
+
+We can use ARP poisoning to perform various activities, such as stealing sensitive information, redirecting traffic, or launching MITM attacks. However, to protect against ARP spoofing, it is important to use secure network protocols, such as IPSec or SSL, and to implement security measures, such as firewalls and intrusion detection systems.
