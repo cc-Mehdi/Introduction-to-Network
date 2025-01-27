@@ -66,6 +66,8 @@ The second last bit in the first octet identifies whether it is a **global OUI**
 
 ## Address Resolution Protocol
 
+![image](https://www.networkacademy.io/sites/default/files/inline-images/how-arp-works.gif)
+
 MAC addresses can be changed/manipulated or spoofed, and as such, they should not be relied upon as a sole means of security or identification. Network administrators should implement additional security measures, such as network segmentation and strong authentication protocols, to protect against potential attacks.
 
 There exist several attack vectors that can potentially be exploited through the use of MAC addresses:
