@@ -98,7 +98,7 @@ The "**who has**" message in the first and third lines indicates that a device i
 
 However, it is also vulnerable to attacks, such as [ARP Spoofing](https://en.wikipedia.org/wiki/ARP_spoofing), which can be used to intercept or manipulate traffic on the network. However, to protect against such attacks, it is important to implement security measures such as firewalls and intrusion detection systems.
 
-**ARP spoofing**, also known as **ARP cache poisoning** or **ARP poison routing**, is an attack that can be done using tools like [Ettercap](https://github.com/Ettercap/ettercap) or [Cain](https://github.com/xchwarze/Cain) & Abel in which we send falsified ARP messages over a LAN. The goal is to associate our MAC address with the IP address of a legitimate device on the company's network, effectively allowing us to intercept traffic intended for the legitimate device. For example, this could look like the following:
+**[ARP spoofing](#arp-spoofing)**, also known as **ARP cache poisoning** or **ARP poison routing**, is an attack that can be done using tools like [Ettercap](https://github.com/Ettercap/ettercap) or [Cain](https://github.com/xchwarze/Cain) & Abel in which we send falsified ARP messages over a LAN. The goal is to associate our MAC address with the IP address of a legitimate device on the company's network, effectively allowing us to intercept traffic intended for the legitimate device. For example, this could look like the following:
 
 ![image](https://github.com/user-attachments/assets/242b6178-5ecd-405b-9994-b55bcad7a5ae)
 
