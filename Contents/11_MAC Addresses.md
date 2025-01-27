@@ -90,7 +90,7 @@ When a device wants to communicate with another device on a LAN, it sends an ARP
 
 When a device receives an ARP request, it sends an ARP reply to the requesting device with its MAC address. The reply message contains the IP and MAC addresses of both the requesting and the responding devices.
 
-### Tshark Capture of ARP Requests
+### [Tshark Capture](#Tshark_Capture) of ARP Requests
 
 ![image](https://github.com/user-attachments/assets/0da980e3-2ba3-40bb-bd02-c9330aa6b0dc)
 
@@ -105,3 +105,10 @@ However, it is also vulnerable to attacks, such as [ARP Spoofing](https://en.wik
 The first and fourth lines show us (**10.129.12.100**) sending falsified ARP messages to the target, associating its MAC address with its IP address (**10.129.12.101**). The second and third lines show the target sending an ARP request and replying to our MAC address. This indicates that we have poisoned the target's ARP cache and that all traffic intended for the target will now be sent to our MAC address.
 
 We can use ARP poisoning to perform various activities, such as stealing sensitive information, redirecting traffic, or launching MITM attacks. However, to protect against ARP spoofing, it is important to use secure network protocols, such as IPSec or SSL, and to implement security measures, such as firewalls and intrusion detection systems.
+
+
+# Read More
+
+## Tshark Capture
+
+TShark is a network protocol analyzer. It lets you capture packet data from a live network, or read packets from a previously saved capture file, either printing a decoded form of those packets to the standard output or writing the packets to a file. TShark's native capture file format is pcapng format, which is also the format used by Wireshark and various other tools. 
