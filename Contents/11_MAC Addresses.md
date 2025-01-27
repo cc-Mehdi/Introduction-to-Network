@@ -90,7 +90,7 @@ When a device wants to communicate with another device on a LAN, it sends an ARP
 
 When a device receives an ARP request, it sends an ARP reply to the requesting device with its MAC address. The reply message contains the IP and MAC addresses of both the requesting and the responding devices.
 
-### [Tshark Capture](#Tshark_Capture) of ARP Requests
+### [Tshark Capture](#Tshark-Capture) of ARP Requests
 
 ![image](https://github.com/user-attachments/assets/0da980e3-2ba3-40bb-bd02-c9330aa6b0dc)
 
