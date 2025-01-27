@@ -120,3 +120,9 @@ TShark is a network protocol analyzer. It lets you capture packet data from a li
 ![image](https://www.networkacademy.io/sites/default/files/inline-images/arp-spoofing.gif)
 
 ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker’s MAC address with the IP address of a legitimate computer or server on the network. [More about ARP Spoofing](https://www.veracode.com/security/arp-spoofing#:~:text=ARP%20spoofing%20is%20a%20type,or%20server%20on%20the%20network.)
+
+### Ettercap
+
+![image](https://github.com/user-attachments/assets/80ea8d4e-ccfe-4187-bbac-0ded983a61dc)
+
+Ettercap is a comprehensive suite for man in the middle attacks. It features sniffing of live connections, content filtering on the fly and many other interesting tricks. It supports active and passive dissection of many protocols and includes many features for network and host analysis. [more information](https://www.ettercap-project.org/index.html)
