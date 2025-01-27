@@ -1,4 +1,4 @@
-# MAC Addresses
+![image](https://github.com/user-attachments/assets/3c214660-1370-4691-af4d-7d7ca5873e38)# MAC Addresses
 
 ![image](https://github.com/user-attachments/assets/32196890-25f6-4436-b21f-eadcd81cd7b7)
 
@@ -114,3 +114,11 @@ We can use ARP poisoning to perform various activities, such as stealing sensiti
 
 TShark is a network protocol analyzer. It lets you capture packet data from a live network, or read packets from a previously saved capture file, either printing a decoded form of those packets to the standard output or writing the packets to a file. TShark's native capture file format is pcapng format, which is also the format used by Wireshark and various other tools. 
 **[tshark(1) Manual Page](https://www.wireshark.org/docs/man-pages/tshark.html)**
+
+### ARP Spoofing
+
+![image](https://github.com/user-attachments/assets/7a3338bb-6eba-476d-9116-8f3e9b87918d)
+
+ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker’s MAC address with the IP address of a legitimate computer or server on the network.
+
+[ARP Spoofing](https://www.veracode.com/security/arp-spoofing#:~:text=ARP%20spoofing%20is%20a%20type,or%20server%20on%20the%20network.)
