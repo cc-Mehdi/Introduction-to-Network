@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3c214660-1370-4691-af4d-7d7ca5873e38)# MAC Addresses
+# MAC Addresses
 
 ![image](https://github.com/user-attachments/assets/32196890-25f6-4436-b21f-eadcd81cd7b7)
 
@@ -117,7 +117,7 @@ TShark is a network protocol analyzer. It lets you capture packet data from a li
 
 ### ARP Spoofing
 
-![image](https://github.com/user-attachments/assets/7a3338bb-6eba-476d-9116-8f3e9b87918d)
+![image](https://www.networkacademy.io/sites/default/files/inline-images/arp-spoofing.gif)
 
 ARP spoofing is a type of attack in which a malicious actor sends falsified ARP (Address Resolution Protocol) messages over a local area network. This results in the linking of an attacker’s MAC address with the IP address of a legitimate computer or server on the network.
 
