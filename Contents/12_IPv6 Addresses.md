@@ -2,3 +2,4 @@
 
 ![image](https://github.com/user-attachments/assets/24dc01d9-975f-4612-9774-18c0bb9d0493)
 
+**IPv6** is the successor of IPv4. In contrast to IPv4, the **IPv6** address is **128** bit long. The **prefix** identifies the host and network parts. The Internet Assigned Numbers Authority (**IANA**) is responsible for assigning IPv4 and IPv6 addresses and their associated network portions. In the long term, **IPv6** is expected to completely replace IPv4, which is still predominantly used on the Internet. In principle, however, IPv4 and IPv6 can be made available simultaneously (**Dual Stack**).
