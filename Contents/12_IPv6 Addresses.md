@@ -14,3 +14,5 @@ IPv6 consistently follows the **end-to-end** principle and provides publicly acc
 - Faster routing
 - End-to-end encryption (IPsec)
 - Data packages up to 4 GByte
+
+![image](https://github.com/user-attachments/assets/b095f713-6260-4190-9e02-8afd380d38b4)
