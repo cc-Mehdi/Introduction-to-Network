@@ -30,3 +30,14 @@ For example, when we stream or watch a video on a platform like YouTube, the vid
 ### ICMP Requests
 
 A request is a message sent by one device to another to request information or perform a specific action. An example of a request in ICMP is the ping request, which tests the connectivity between two devices. When one device sends a **ping** request to another, the second device responds with a **ping reply** message.
+
+### ICMP Messages
+
+A message in ICMP can be either a request or a reply. In addition to ping requests and responses, ICMP supports other types of messages, such as error messages, **destination unreachable**, and **time exceeded** messages. These messages are used to communicate various types of information and errors between devices on the network.
+
+For example, if a device tries to send a packet to another device and the packet cannot be delivered, the device can use ICMP to send an error message back to the sender. ICMP has two different versions:
+
+**ICMPv4**: For IPv4 only
+**ICMPv6**: For IPv6 only
+
+ICMPv4 is the original version of **ICMP**, developed for use with IPv4. It is still widely used and is the most common version of ICMP. On the other hand, ICMPv6 was developed for IPv6. It includes additional functionality and is designed to address some of the limitations of ICMPv4.
