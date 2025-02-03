@@ -43,3 +43,11 @@ An IPv6 address consists of two parts:
 - **Network Prefix** (network part)
 - **Interface Identifier** also called **Suffix** (host part)
 
+The **Network Prefix** identifies the network, subnet, or address range. The **Interface Identifier** is formed from the **48-bit** MAC address (which we will discuss later) of the interface and is converted to a **64-bit address** in the process. The default prefix length is **/64**. However, other typical prefixes are **/32**, **/48**, and **/56**. If we want to use our networks, we get a shorter prefix (e.g. **/56**) than **/64** from our provider.
+
+In RFC 5952, the aforementioned IPv6 address notation was defined:
+
+- All alphabetical characters are always written in lower case.
+- All leading zeros of a block are always omitted.
+- One or more consecutive blocks of **4 zeros** (hex) are shortened by two colons (**::**).
+- The shortening to two colons (**::**) may only be performed **once** starting from the left.
