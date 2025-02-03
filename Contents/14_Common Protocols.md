@@ -55,3 +55,6 @@ However, it is also possible to guess the operating system based on the default 
 [Voice over Internet Protocol](https://www.fcc.gov/general/voice-over-internet-protocol-voip) (**VoIP**) is a method of transmitting voice and multimedia communications. For example, it allows us to make phone calls using a broadband internet connection instead of a traditional phone line, like Skype, Whatsapp, Google Hangouts, Slack, Zoom, and others.
 
 The most common VoIP ports are **TCP/5060** and **TCP/5061**, which are used for the [Session Initiation Protocol](https://en.wikipedia.org/wiki/Session_Initiation_Protocol) (SIP). However, the port TCP/1720 may also be used by some VoIP systems for the [H.323 protocol](https://en.wikipedia.org/wiki/H.323), a set of standards for multimedia communication over packet-based networks. Still, SIP is more widely used than H.323 in VoIP systems.
+
+![image](https://github.com/user-attachments/assets/7718a4c7-5ed4-4b83-a7c9-6b5fa263a9dd)
+
