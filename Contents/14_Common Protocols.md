@@ -41,3 +41,6 @@ For example, if a device tries to send a packet to another device and the packet
 **ICMPv6**: For IPv6 only
 
 ICMPv4 is the original version of **ICMP**, developed for use with IPv4. It is still widely used and is the most common version of ICMP. On the other hand, ICMPv6 was developed for IPv6. It includes additional functionality and is designed to address some of the limitations of ICMPv4.
+
+![image](https://github.com/user-attachments/assets/5713ad92-7184-4a70-b90b-c9a1402d3880)
+
