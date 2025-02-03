@@ -1,3 +1,7 @@
 # Wireless Networks
 
+![image](https://github.com/user-attachments/assets/924f27b3-2f67-4f98-add1-574709ae583e)
+
 Wireless networks are computer networks that use wireless data connections between network nodes. These networks allow devices such as laptops, smartphones, and tablets to communicate with each other and the Internet without needing physical connections such as cables.
+
+Wireless networks use radio frequency (**RF**) technology to transmit data between devices. Each device on a wireless network has a wireless adapter that converts data into RF signals and sends them over the air. Other devices on the network receive these signals with their own wireless adapters, and the data is then converted back into a usable form.
