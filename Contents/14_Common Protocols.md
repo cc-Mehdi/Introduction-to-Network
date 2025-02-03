@@ -13,3 +13,9 @@ For example, When we enter a URL into our web browser, the browser sends an HTTP
 ![image](https://github.com/user-attachments/assets/c385dea1-9fa9-4088-a413-8d5c2a8a8c23)
 ![image](https://github.com/user-attachments/assets/d446b470-fad1-4527-9a6d-02f75f15f550)
 ![image](https://github.com/user-attachments/assets/aa929886-3883-4efb-93d3-94a9cd72d4e3)
+
+### User Datagram Protocol
+
+On the other hand, **UDP** is a **connectionless** protocol, which means it does not establish a virtual connection before transmitting data. Instead, it sends the data packets to the destination without checking to see if they were received.
+
+For example, when we stream or watch a video on a platform like YouTube, the video data is transmitted to our device using **UDP**. This is because the video can tolerate some data loss, and the transmission speed is more important than the reliability. If a few packets of video data are lost along the way, it will not significantly impact the overall quality of the video. This makes **UDP** faster than TCP but less reliable because there is no guarantee that the packets will reach their destination.
