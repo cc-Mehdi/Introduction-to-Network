@@ -44,3 +44,7 @@ ICMPv4 is the original version of **ICMP**, developed for use with IPv4. It is s
 
 ![image](https://github.com/user-attachments/assets/5713ad92-7184-4a70-b90b-c9a1402d3880)
 
+Another crucial part of ICMP for us is the [Time-To-Live](https://en.wikipedia.org/wiki/Time_to_live) (**TTL**) field in the ICMP packet header that limits the packet's lifetime as it travels through the network. It prevents packets from circulating indefinitely on the network in the event of routing loops. Each time a packet passes through a router, the router decrements the **TTL value by 1**. When the TTL value reaches **0**, the router discards the packet and sends an ICMP **Time Exceeded** message back to the sender.
+
+We can also use **TTL** to determine the number of hops a packet has taken and the approximate distance to the destination. For example, if a packet has a **TTL** of 10 and takes 5 hops to reach its destination, it can be inferred that the destination is approximately 5 hops away. For example, if we see a ping with the **TTL** value of **122**, it could mean that we are dealing with a Windows system (**TTL 128** by default) that is 6 hops away.
+
