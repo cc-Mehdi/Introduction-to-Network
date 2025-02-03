@@ -16,3 +16,8 @@ IPv6 consistently follows the **end-to-end** principle and provides publicly acc
 - Data packages up to 4 GByte
 
 ![image](https://github.com/user-attachments/assets/b095f713-6260-4190-9e02-8afd380d38b4)
+
+There are four different types of IPv6 addresses:
+
+![image](https://github.com/user-attachments/assets/12a0ec8c-babf-4210-81d5-c5b9056a9b0b)
+
