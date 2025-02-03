@@ -22,3 +22,11 @@ For example, when we stream or watch a video on a platform like YouTube, the vid
 
 ![image](https://github.com/user-attachments/assets/95e90b22-b861-4681-9c37-050e9ed538c1)
 ![image](https://github.com/user-attachments/assets/ebb968a6-4f4a-4b74-a1fe-5940b2bb38fb)
+
+### ICMP
+
+[Internet Control Message Protocol](https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol) (**ICMP**) is a protocol used by devices to communicate with each other on the Internet for various purposes, including error reporting and status information. It sends requests and messages between devices, which can be used to report errors or provide status information.
+
+### ICMP Requests
+
+A request is a message sent by one device to another to request information or perform a specific action. An example of a request in ICMP is the ping request, which tests the connectivity between two devices. When one device sends a **ping** request to another, the second device responds with a **ping reply** message.
