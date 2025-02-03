@@ -26,3 +26,8 @@ There are four different types of IPv6 addresses:
 The hexadecimal system (hex) is used to make the binary representation more readable and understandable. We can only show 10 (0-9) states with the decimal system and 2 (0 / 1) with the binary system by using a single character. In contrast to the binary and decimal system, we can use the hexadecimal system to show 16 (0-F) states with a single character.
 
 ![image](https://github.com/user-attachments/assets/3aa779d7-2070-4096-a029-309859c09c0e)
+
+Let's look at an example with an IPv4, at how the IPv4 address (**192.168.12.160**) would look in hexadecimal representation.
+
+![image](https://github.com/user-attachments/assets/2c376308-4d60-418e-8040-07c59fe5edb1)
+
