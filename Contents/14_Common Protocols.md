@@ -4,9 +4,12 @@ Internet protocols are standardized rules and guidelines defined in RFCs that sp
 
 We need to deal with and know the different and most used protocols. As we have already learned, these protocols are the basis of all communication between our devices and computers in the networks. We have compiled below many of these protocols that we will be dealing with throughout the modules. The better we understand them, the more effectively we can work with them.
 
-## Transmission Control Protocol
+### Transmission Control Protocol
 
 **TCP** is a **connection-oriented** protocol that establishes a virtual connection between two devices before transmitting data by using a [Three-Way-Handshake](https://en.wikipedia.org/wiki/Transmission_Control_Protocol#Connection_establishment). This connection is maintained until the data transfer is complete, and the devices can continue to send data back and forth as long as the connection is active.
 
 For example, When we enter a URL into our web browser, the browser sends an HTTP request to the server hosting the website using **TCP**. The server responds by sending the HTML code for the website back to the browser using **TCP**. The browser then uses this code to render the website on our screen. This process relies on a **TCP** connection being established between the browser and the web server and maintained until the data transfer is complete. As a result, **TCP** is reliable but slower than UDP because it requires additional overhead for establishing and maintaining the connection.
 
+![image](https://github.com/user-attachments/assets/c385dea1-9fa9-4088-a413-8d5c2a8a8c23)
+![image](https://github.com/user-attachments/assets/d446b470-fad1-4527-9a6d-02f75f15f550)
+![image](https://github.com/user-attachments/assets/aa929886-3883-4efb-93d3-94a9cd72d4e3)
