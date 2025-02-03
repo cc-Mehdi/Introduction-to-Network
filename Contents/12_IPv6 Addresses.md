@@ -31,3 +31,15 @@ Let's look at an example with an IPv4, at how the IPv4 address (**192.168.12.160
 
 ![image](https://github.com/user-attachments/assets/2c376308-4d60-418e-8040-07c59fe5edb1)
 
+In total, the IPv6 address consists of **16 bytes**. Because of its length, an **IPv6** address is represented in a **hexadecimal** notation. Therefore the **128 bits** are divided into **8 blocks** multiplied by 16 bits (or **4 hex** numbers). All four hex numbers are grouped and separated by a colon (**:**) instead of a simple dot (**.**) as in IPv4. To simplify the notation, we leave out leading at least **4** zeros in the blocks, and we can replace them with two colons (**::**).
+
+An IPv6 address can look like this:
+
+- Full IPv6: **fe80:0000:0000:0000:dd80:b1a9:6687:2d3b/64**
+- Short IPv6: **fe80::dd80:b1a9:6687:2d3b/64**
+
+An IPv6 address consists of two parts:
+
+- **Network Prefix** (network part)
+- **Interface Identifier** also called **Suffix** (host part)
+
