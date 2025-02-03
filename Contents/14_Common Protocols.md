@@ -58,3 +58,10 @@ The most common VoIP ports are **TCP/5060** and **TCP/5061**, which are used for
 
 ![image](https://github.com/user-attachments/assets/7718a4c7-5ed4-4b83-a7c9-6b5fa263a9dd)
 
+### Information Disclosure
+
+However, SIP allows us to enumerate existing users for potential attacks. This can be done for various purposes, such as determining a user's availability, finding out information about the user's capabilities or services, or performing brute-force attacks on user accounts later on.
+
+One of the possible ways to enumerate users is the SIP **OPTIONS** request. It is a method used to request information about the capabilities of a SIP server or user agents, such as the types of media it supports, the codecs it can decode, and other details. The **OPTIONS** request can probe a SIP server or user agent for information or test its connectivity and availability.
+
+During our analysis, it is possible to discover a **SEPxxxx.cnf** file, where **xxxx** is a unique identifier, is a configuration file used by Cisco Unified Communications Manager, formerly known as Cisco CallManager, to define the settings and parameters for a Cisco Unified IP Phone. The file specifies the phone model, firmware version, network settings, and other details.
