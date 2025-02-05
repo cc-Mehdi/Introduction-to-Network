@@ -10,3 +10,4 @@ Therefore, to connect to a wireless network, a device must be within range of th
 
 Communication between devices occurs over RF in the **2.4 GHz** or **5 GHz** bands in a WiFi network. When a device, like a laptop, wants to send data over the network, it first communicates with the [Wireless Access Point](https://en.wikipedia.org/wiki/Wireless_access_point) (**WAP**) to request permission to transmit. The WAP is a central device, like a router, that connects the wireless network to a wired network and controls access to the network.
 Once the WAP grants permission, the transmitting device sends the data as RF signals, which are received by the wireless adapters of other devices on the network. The data is then converted back into a usable form and passed on to the appropriate application or system.
+
