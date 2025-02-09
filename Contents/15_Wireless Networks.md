@@ -1,4 +1,4 @@
-# Wireless Networks
+ # Wireless Networks
 
 ![image](https://github.com/user-attachments/assets/924f27b3-2f67-4f98-add1-574709ae583e)
 
@@ -12,3 +12,8 @@ Communication between devices occurs over RF in the **2.4 GHz** or **5 GHz** ban
 Once the WAP grants permission, the transmitting device sends the data as RF signals, which are received by the wireless adapters of other devices on the network. The data is then converted back into a usable form and passed on to the appropriate application or system.
 
 The strength of the RF signal and the distance it can travel are influenced by factors such as the transmitter's power, the presence of obstacles, and the density of RF noise in the environment. So, to ensure reliable communication, WiFi networks use techniques such as spread spectrum transmission and error correction to overcome these challenges.
+
+### WiFi Connection
+
+The device must also be configured with the correct network settings, such as the network name / [Service Set Identifier](https://www.geeksforgeeks.org/service-set-identifier-ssid-in-computer-network/) (**SSID**) and **password**. So, to connect to the router, the laptop uses a wireless networking protocol called [IEEE 802.11](https://en.wikipedia.org/wiki/IEEE_802.11). This protocol defines the technical details of how wireless devices communicate with each other and with WAPs. When a device wants to join a WiFi network, it sends a request to the WAP to initiate the connection process. This request is known as a **connection request frame** or **association request** and is sent using the **IEEE 802.11** wireless networking protocol. The connection request frame contains various fields of information, including the following but not limited to:
+
