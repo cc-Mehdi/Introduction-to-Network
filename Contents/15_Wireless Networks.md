@@ -20,3 +20,5 @@ The device must also be configured with the correct network settings, such as th
 ![image](https://github.com/user-attachments/assets/5f5492c6-790c-4adb-ae54-c5c026103f87)
 
 The device then uses this information to configure its wireless adapter and connect to the WAP. Once the connection is established, the device can communicate with the WAP and other network devices. It can also access the Internet and other online resources through the WAP, which acts as a gateway to the wired network. However, the **SSID** can be hidden by disabling broadcasting. That means that devices that search for that specific WAP will not be able to identify its **SSID**. Nevertheless, the **SSID** can still be found in the authentication packet.
+
+In addition to the **IEEE 802.11** protocol, other networking protocols and technologies may also be used, like TCP/IP, DHCP, and WPA2, in a WiFi network to perform tasks such as assigning IP addresses to devices, routing traffic between devices, and providing security.
