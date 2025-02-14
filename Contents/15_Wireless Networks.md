@@ -81,3 +81,11 @@ However, since the IV in WEP is relatively small, we can brute force it, try eve
 ### Authentication Protocols
 
 [Lightweight Extensible Authentication Protocol](https://en.wikipedia.org/wiki/Lightweight_Extensible_Authentication_Protocol) (**LEAP**) and [Protected Extensible Authentication Protocol](https://en.wikipedia.org/wiki/Protected_Extensible_Authentication_Protocol) (**PEAP**) are authentication protocols used to secure wireless networks to provide a secure method for authenticating devices on a wireless network and are often used in conjunction with WEP or WPA to provide an additional layer of security.
+
+LEAP and PEAP are both based on the [Extensible Authentication Protocol](https://en.wikipedia.org/wiki/Extensible_Authentication_Protocol) (**EAP**), a framework for authentication used in various networking contexts. However, one key difference between **LEAP** and **PEAP** is how they secure the authentication process.
+
+- **LEAP** uses a **shared key** for authentication, which means that the **same key** is used for **encryption and authentication**.
+
+This can make it relatively easy for us to gain access to the network if the key is compromised.
+
+However, **PEAP** uses a more secure authentication method called tunneled [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (**TLS**). This method establishes a secure connection between the device and the WAP using a **digital certificate**, and an encrypted tunnel protects the authentication process. This provides more robust protection against unauthorized access and is more resistant to attacks.
