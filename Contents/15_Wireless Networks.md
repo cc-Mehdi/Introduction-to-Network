@@ -52,3 +52,4 @@ WiFi networks are configured by default to allow authorized devices to join the 
 ### Firewall
 
 A firewall is a security system that controls incoming and outgoing network traffic based on predetermined security rules. For example, WiFi routers often have built-in firewalls that can block incoming traffic from the Internet and protect against various types of cyber threats.
+
