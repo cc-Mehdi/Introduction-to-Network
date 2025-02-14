@@ -53,3 +53,17 @@ WiFi networks are configured by default to allow authorized devices to join the 
 
 A firewall is a security system that controls incoming and outgoing network traffic based on predetermined security rules. For example, WiFi routers often have built-in firewalls that can block incoming traffic from the Internet and protect against various types of cyber threats.
 
+## Encryption Protocols
+
+[Wired Equivalent Privacy](https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy) (**WEP**) and [WiFi Protected Access](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access) (**WPA**) are encryption protocols that secure data transmitted over a WiFi network. WPA can use different encryption algorithms, including [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (**AES**).
+
+### WEP
+
+**WEP** uses a **40-bit** or **104-bit** key to encrypt data, while **WPA using AES** uses a **128-bit** key. Longer keys provide more robust encryption and are more resistant to attacks. However, it is vulnerable to various attacks that can allow an attacker to decrypt data transmitted over the network. In addition, WEP is not compatible with newer devices and operating systems and is generally no longer considered secure. Finally, **WEP** uses the **RC4 cipher** encryption algorithm, which makes it vulnerable to attacks.
+
+However, WEP uses a **shared key** for authentication, which means the same key is used for encryption and authentication. There are two versions of the WEP protocol:
+
+- WEP-40/WEP-64
+- WEP-104
+
+**WEP-40**, also known as **WEP-64**, uses a **40-bit** (secret) key, while **WEP-104** uses a **104-bit** key. The key is divided into an [Initialization Vector]() (**IV**) and a **secret key**.
