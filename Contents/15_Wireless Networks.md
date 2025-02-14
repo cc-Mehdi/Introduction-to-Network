@@ -22,3 +22,10 @@ The device must also be configured with the correct network settings, such as th
 The device then uses this information to configure its wireless adapter and connect to the WAP. Once the connection is established, the device can communicate with the WAP and other network devices. It can also access the Internet and other online resources through the WAP, which acts as a gateway to the wired network. However, the **SSID** can be hidden by disabling broadcasting. That means that devices that search for that specific WAP will not be able to identify its **SSID**. Nevertheless, the **SSID** can still be found in the authentication packet.
 
 In addition to the **IEEE 802.11** protocol, other networking protocols and technologies may also be used, like TCP/IP, DHCP, and WPA2, in a WiFi network to perform tasks such as assigning IP addresses to devices, routing traffic between devices, and providing security.
+
+## WEP Challenge-Response Handshake
+
+The challenge-response handshake is a process to establish a secure connection between a WAP and a client device in a wireless network that uses the WEP security protocol. This involves exchanging packets between the WAP and the client device to authenticate the device and establish a secure connection.
+
+![image](https://github.com/user-attachments/assets/e1d717f0-43df-4cf9-af22-261c93f5e741)
+
