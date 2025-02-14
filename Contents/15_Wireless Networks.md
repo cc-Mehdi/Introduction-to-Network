@@ -32,3 +32,15 @@ The challenge-response handshake is a process to establish a secure connection b
 Nevertheless, some packets can get lost, so the so-called **CRC** checksum has been integrated. [Cyclic Redundancy Check](https://en.wikipedia.org/wiki/Cyclic_redundancy_check) (**CRC**) is an error-detection mechanism used in the WEP protocol to protect against data corruption in wireless communications. A CRC value is calculated for each packet transmitted over the wireless network based on the packet's data. It is used to verify the integrity of the data. When the destination device receives the packet, the CRC value is recalculated and compared to the original value. If the values match, the data has been transmitted successfully without any errors. However, if the values do not match, the data has been corrupted and needs to be retransmitted.
 
 The design of the **CRC** mechanism has a flaw that allows us to decrypt a single packet **without** knowing the **encryption key**. This is because the **CRC** value is calculated using the **plaintext** data in the packet rather than the encrypted data. In WEP, the **CRC** value is included in the packet header along with the encrypted data. When the destination device receives the packet, the CRC value is recalculated and compared to the original one to ensure that the data has been transmitted successfully without any errors. However, we can use the **CRC** to determine the plaintext data in the packet, even if the data is encrypted.
+
+## Security Features
+
+WiFi networks have several security features to protect against unauthorized access and ensure the privacy and integrity of data transmitted over the network. Some of the leading security features include but are not limited to:
+
+- Encryption
+- Access Control
+- Firewall
+
+### Encryption
+
+We can use various encryption algorithms to protect the confidentiality of data transmitted over wireless networks. The most common encryption algorithms in WiFi networks are [Wired Equivalent Privacy](https://en.wikipedia.org/wiki/Wired_Equivalent_Privacy) (**WEP**), [WiFi Protected Access 2](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA2) (**WPA2**), and [WiFi Protected Access 3](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Access#WPA3) (**WPA3**).
