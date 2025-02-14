@@ -66,4 +66,11 @@ However, WEP uses a **shared key** for authentication, which means the same key 
 - WEP-40/WEP-64
 - WEP-104
 
-**WEP-40**, also known as **WEP-64**, uses a **40-bit** (secret) key, while **WEP-104** uses a **104-bit** key. The key is divided into an [Initialization Vector]() (**IV**) and a **secret key**.
+**WEP-40**, also known as **WEP-64**, uses a **40-bit** (secret) key, while **WEP-104** uses a **104-bit** key. The key is divided into an [Initialization Vector](https://en.wikipedia.org/wiki/Initialization_vector) (**IV**) and a **secret key**.
+
+The **IV** is a small value included in the packet header along with the encrypted data and is used to create the key for both **WEP-40** and **WEP-104** and is included to ensure that each key is unique. The secret key is a series of random bits used to encrypt the data. However, the **WEP-104** has a **80-bits** long **secret key**. Let us look at the following table to see the differences clearly:
+
+![image](https://github.com/user-attachments/assets/1adbe58d-0746-4499-90da-0b841c0b6af0)
+
+However, since the IV in WEP is relatively small, we can brute force it, try every possible combination of characters for it, and determine the correct value. Afterward, we can use it to decrypt the data in the packet. This allows us to access the data transmitted over the wireless network and potentially compromise the network's security.
+
