@@ -89,3 +89,7 @@ LEAP and PEAP are both based on the [Extensible Authentication Protocol](https:/
 This can make it relatively easy for us to gain access to the network if the key is compromised.
 
 However, **PEAP** uses a more secure authentication method called tunneled [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security) (**TLS**). This method establishes a secure connection between the device and the WAP using a **digital certificate**, and an encrypted tunnel protects the authentication process. This provides more robust protection against unauthorized access and is more resistant to attacks.
+
+### TACACS+
+
+In a wireless network, when a wireless access point (WAP) sends an authentication request to a [Terminal Access Controller Access-Control System Plus](https://www.ciscopress.com/articles/article.asp?p=422947&seqNum=4) (**TACACS+**) server, it is likely that the **entire request packet** will be encrypted to protect the confidentiality and integrity of the request.
