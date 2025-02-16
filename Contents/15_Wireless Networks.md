@@ -130,5 +130,18 @@ The WAP uses disassociation frames to disconnect a client from the network. When
 
 We can launch the attack from **within** or **outside** the network depending on our location and network security measures. The purpose of this attack is to disrupt the communication between the WAP and its clients, causing the clients to disconnect and possibly causing inconvenience or disruption to the users. We can also use it as a precursor to other attacks, such as a MITM attack, by forcing the clients to reconnect to the network and potentially exposing them to further attacks.
 
+#### _At simple explanation (Disassociation Attack)_
 
+A **Disassociation Attack** is a type of attack on wireless networks that aims to **disconnect devices from Wi-Fi**.
+
+In this attack, the hacker sends disassociation frames to connected devices. These frames force the devices to disconnect from the network, requiring them to reconnect in order to continue using the Wi-Fi.
+
+🔹 Why is this attack used?
+
+To disrupt and inconvenience users by disconnecting them from the network
+As a setup for other attacks, such as a Man-in-the-Middle (MITM) attack, where hackers trick users into connecting to a fake network to steal their data
+🔹 Where can this attack come from?
+
+It can be launched from inside the network (e.g., from a connected device) or outside the network (e.g., by a nearby attacker).
+Simply put, a Disassociation Attack is like someone constantly unplugging and plugging back in your internet cable, making it impossible to stay connected! 😡🔌
 
