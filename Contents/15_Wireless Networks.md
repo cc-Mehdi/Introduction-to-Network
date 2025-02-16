@@ -171,3 +171,12 @@ Only devices that have previously connected to the network will be able to recon
 It makes it harder for hackers and unauthorized users to find the network.
 It enhances security, but it is not enough on its own—it should be combined with strong encryption (such as WPA2/WPA3).
 Simply put, disabling SSID broadcasting is like removing a house’s nameplate so strangers have a harder time finding it! 🏠🔒
+
+### WPA
+
+Again, WPA provides strong encryption and authentication for wireless communications, helping protect against unauthorized network access and sensitive data interception. WPA includes two main versions:
+
+1. WPA-Personal
+2. WPA-Enterprise
+
+WPA-Personal, designed for home and small business networks, and WPA-Enterprise, designed for larger organizations and uses a centralized authentication server (e.g., RADIUS or TACACS+) to verify the identity of clients.
