@@ -188,3 +188,14 @@ MAC filtering is a security measure that allows a WAP to accept or reject connec
 ### Deploying EAP-TLS
 
 EAP-TLS is a security protocol used to authenticate and encrypt wireless communications. It uses digital certificates and PKI to verify the identity of clients and establish secure connections. Deploying EAP-TLS can help to harden a WAP by providing strong authentication and encryption for wireless communications, which can protect against unauthorized access to the network and the interception of sensitive data.
+
+#### _At simple explanation (Deploying EAP-TLS)_
+
+EAP-TLS is a security protocol used for authenticating and encrypting wireless communications. It utilizes digital certificates and Public Key Infrastructure (PKI) to verify user identities and establish secure connections.
+
+🔹 Why is EAP-TLS important?
+
+Provides strong authentication, preventing unauthorized access.
+Encrypts communications to protect sensitive data from interception.
+Enhances the security of Wireless Access Points (WAPs) and safeguards against cyber threats.
+Simply put, EAP-TLS acts like a secure digital ID card that only allows trusted users to connect while encrypting communications to keep hackers out. 🔐📡
