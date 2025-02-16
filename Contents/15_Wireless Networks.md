@@ -145,3 +145,11 @@ As a setup for other attacks, such as a Man-in-the-Middle (MITM) attack, where h
 It can be launched from inside the network (e.g., from a connected device) or outside the network (e.g., by a nearby attacker).
 Simply put, a Disassociation Attack is like someone constantly unplugging and plugging back in your internet cable, making it impossible to stay connected! 😡🔌
 
+## Wireless Hardening
+
+There are many different ways to protect wireless networks. However, some examples should be considered to increase wireless networks' security dramatically. These are the following, but not limited to:
+
+- Disabling broadcasting
+- WiFi Protected Access
+- MAC filtering
+- Deploying EAP-TLS
