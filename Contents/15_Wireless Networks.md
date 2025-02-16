@@ -104,6 +104,12 @@ Simply put, LEAP is like a simple lock with a shared key, so if someone finds th
 
 In a wireless network, when a wireless access point (WAP) sends an authentication request to a [Terminal Access Controller Access-Control System Plus](https://www.ciscopress.com/articles/article.asp?p=422947&seqNum=4) (**TACACS+**) server, it is likely that the **entire request packet** will be encrypted to protect the confidentiality and integrity of the request.
 
+**TACACS+** is a protocol used to authenticate and authorize users accessing network devices, such as routers and switches. When a WAP sends an authentication request to a **TACACS+** server, the request typically includes the user's credentials and other information about the session.
+
+Encrypting the authentication request helps to ensure that this sensitive information is not visible to unauthorized parties who may be able to intercept the request. At the same time, it is being transmitted over the network. It also helps prevent tampering with the request or replacing it with a malicious request of their own.
+
+Several encryption methods may be used to encrypt the authentication request, such as **SSL**/**TLS** or **IPSec**. The specific encryption method used may depend on the configuration of the **TACACS+** server and the capabilities of the WAP.
+
 #### _At simple explanation (TACACS+)_
 
 TACACS+ is a security protocol used for authentication and access control to network devices such as routers and switches.
