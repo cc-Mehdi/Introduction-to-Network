@@ -157,3 +157,17 @@ There are many different ways to protect wireless networks. However, some exampl
 ### Disabling Broadcasting
 
 Disabling the broadcasting of the SSID is a security measure that can help harden a WAP by making it more difficult to discover and connect to the network. When the SSID is broadcasted, it is included in beacon frames regularly transmitted by the WAP to advertise the availability of the network. By disabling the broadcasting of the SSID, the WAP will not transmit beacon frames, and the network will not be visible to devices that are not already connected to the network.
+
+#### _At simple explanation (Disabling Broadcasting)_
+
+Disabling SSID broadcasting is a security measure that helps hide a Wi-Fi network, making it harder for hackers to discover and connect to it.
+
+Normally, a WAP broadcasts the SSID in regular beacon frames so that devices can detect and connect to the network. However, if SSID broadcasting is disabled:
+
+The network will not appear in the list of available Wi-Fi networks.
+Only devices that have previously connected to the network will be able to reconnect.
+🔹 Why is this useful?
+
+It makes it harder for hackers and unauthorized users to find the network.
+It enhances security, but it is not enough on its own—it should be combined with strong encryption (such as WPA2/WPA3).
+Simply put, disabling SSID broadcasting is like removing a house’s nameplate so strangers have a harder time finding it! 🏠🔒
