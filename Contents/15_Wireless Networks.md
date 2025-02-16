@@ -153,3 +153,7 @@ There are many different ways to protect wireless networks. However, some exampl
 - WiFi Protected Access
 - MAC filtering
 - Deploying EAP-TLS
+
+### Disabling Broadcasting
+
+Disabling the broadcasting of the SSID is a security measure that can help harden a WAP by making it more difficult to discover and connect to the network. When the SSID is broadcasted, it is included in beacon frames regularly transmitted by the WAP to advertise the availability of the network. By disabling the broadcasting of the SSID, the WAP will not transmit beacon frames, and the network will not be visible to devices that are not already connected to the network.
