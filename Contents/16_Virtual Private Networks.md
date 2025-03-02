@@ -25,3 +25,7 @@ The VPN client and server use these ports to establish and maintain the VPN conn
 IPsec can be used in two modes.
 
 ![image](https://github.com/user-attachments/assets/b399fd88-4aa4-4e83-bd71-a1118082de1f)
+
+For example, an administrator could place a firewall in between. In order to facilitate IPsec VPN traffic from a VPN client outside a firewall to a VPN server inside, the firewall would need to allow the following protocols:
+
+![image](https://github.com/user-attachments/assets/774b7592-f58e-4cf2-813f-884f7346ff04)
