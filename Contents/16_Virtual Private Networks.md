@@ -21,3 +21,7 @@ The VPN client and server use these ports to establish and maintain the VPN conn
 1. [Authentication Header](https://www.ibm.com/docs/en/i/7.1?topic=protocols-authentication-header) (**AH**): This protocol provides integrity and authenticity for IP packets but does not provide encryption. It adds an authentication header to each IP packet, which contains a cryptographic checksum that can be used to verify that the packet has not been tampered with.
 
 2. [Encapsulating Security Payload](https://www.ibm.com/docs/en/i/7.4?topic=protocols-encapsulating-security-payload) (**ESP**): This protocol provides encryption and optional authentication for IP packets. It encrypts the data payload of each IP packet and optionally adds an authentication header, similar to AH.
+
+IPsec can be used in two modes.
+
+![image](https://github.com/user-attachments/assets/b399fd88-4aa4-4e83-bd71-a1118082de1f)
