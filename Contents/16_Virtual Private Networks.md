@@ -29,3 +29,9 @@ IPsec can be used in two modes.
 For example, an administrator could place a firewall in between. In order to facilitate IPsec VPN traffic from a VPN client outside a firewall to a VPN server inside, the firewall would need to allow the following protocols:
 
 ![image](https://github.com/user-attachments/assets/774b7592-f58e-4cf2-813f-884f7346ff04)
+
+These protocols are necessary for facilitating IPsec VPN traffic because they provide the security and encryption that are required for secure communication over the public internet. Without these protocols, the VPN traffic would be vulnerable to interception and tampering.
+
+## PPTP
+
+Point-to-Point Tunneling Protocol (PPTP) is a network protocol that enables the creation of VPNs by establishing a secure tunnel between the VPN client and server, encapsulating the data transmitted within this tunnel. Originally an extension of the Point-to-Point Protocol (PPP), PPTP is supported by many operating systems.
