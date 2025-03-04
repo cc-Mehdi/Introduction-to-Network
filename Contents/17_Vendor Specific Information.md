@@ -24,6 +24,8 @@ The Cisco IOS devices can be configured for SSH or Telnet. So it can be accessed
 
 ## VLANs
 
+![image](https://github.com/user-attachments/assets/29415ace-638f-4103-afaf-cdb5aa7ea698)
+
 Imagine this scenario: A startup called XQ hired a network administrator to create a network for their single-office company, and due to budget limitations, they can only afford one switch and router. The sysadmin of XQ stated that in addition to hosting the web and database servers in the network, staff from different departments will be using it. As a seasoned network security specialist, the network administrator immediately thought about the security attacks that an insider can perform, especially ones abusing broadcast traffic, such as **broadcast storms**. Therefore, to tackle this problem, the network administrator decided to logically segment the network with **Virtual Local Area Networks** (**VLANS**), conceptually breaking down one switch into smaller mini-switches.
 
 A **VLAN** is a logical grouping of network endpoints connected to defined ports on a switch, allowing the segmentation of networks by creating logical broadcast domains that can span multiple physical LAN segments. With **VLANs**, network administrators can segment networks based on factors such as team, function, department, or application, without worrying about the physical location of endpoints and users. A broadcast packet sent over one **VLAN** does not reach any other endpoint that is a member of another **VLAN**. Because each **VLAN** is regarded as a broadcast domain, it needs to have its own subnet; for example, the network administrator contracted by XQ can segment the network by departments:
