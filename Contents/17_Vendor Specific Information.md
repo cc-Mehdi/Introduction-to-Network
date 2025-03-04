@@ -30,3 +30,10 @@ A **VLAN** is a logical grouping of network endpoints connected to defined ports
 
 ![image](https://github.com/user-attachments/assets/facfc3ee-ebd0-462c-a7ac-8e04944addfd)
 
+A myriad of benefits is attained when using **VLANs**, including:
+
+- **Better Organization**: Network administrators can group endpoints based on any common attribute they share.
+- **Increased Security**: Network segmentation disallows unauthorized members from sniffing network packets in other **VLANs**.
+- **Simplified Administration**: Network administrators do not have to worry about the physical locations of an endpoint.
+- **Increased Performance**: With reduced broadcast traffic for all endpoints, more bandwidth is made available for use by the network.
+
