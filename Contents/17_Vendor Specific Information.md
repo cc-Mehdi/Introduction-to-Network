@@ -12,3 +12,6 @@ Cisco IOS can be managed in several ways, depending on the network device and ha
 
 ![image](https://github.com/user-attachments/assets/52d29e67-c56e-4c80-9905-7d37d952667d)
 
+In Cisco IOS, different types of passwords are used for various purposes, for example:
+
+![image](https://github.com/user-attachments/assets/86581391-0c68-4aa6-990a-2778bd511ac0)
