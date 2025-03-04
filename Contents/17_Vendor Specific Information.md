@@ -15,3 +15,9 @@ Cisco IOS can be managed in several ways, depending on the network device and ha
 In Cisco IOS, different types of passwords are used for various purposes, for example:
 
 ![image](https://github.com/user-attachments/assets/86581391-0c68-4aa6-990a-2778bd511ac0)
+
+We highly recommend going through the provided external resources to understand the encryption mechanics of Cisco IOS and how those are used.
+
+The Cisco IOS devices can be configured for SSH or Telnet. So it can be accessed remotely. We can determine from the response we receive that it is indeed a Cisco IOS, as it responds with the **User Access Verification** message.
+
+![image](https://github.com/user-attachments/assets/3e7049b3-944a-414e-8ef2-6069fbfdf69b)
