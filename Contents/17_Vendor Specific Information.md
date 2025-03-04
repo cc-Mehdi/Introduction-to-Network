@@ -7,3 +7,5 @@
 - Security features such as encryption and authentication
 - Virtualization features such as Virtual Private LAN Service (VPLS)
 - Virtual Routing and Forwarding (VRF)
+
+Cisco IOS can be managed in several ways, depending on the network device and hardware used. The most commonly used method is the command line interface (**CLI**), which can also be managed in the graphical user interface (**GUI**). In addition, it supports various network protocols and services required for network operations. These include:
