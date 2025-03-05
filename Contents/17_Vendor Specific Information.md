@@ -52,4 +52,6 @@ Security-wise, static VLANs are the more secure option because a port will forev
 
 Any port on a VLAN-enabled switch must be either an access port or a trunk port. Access ports belong to and can carry the traffic of only one VLAN (or in some cases two, with the second being for voice traffic); any traffic arriving on an access port is assumed to belong to the VLAN the port was assigned. On the other hand, trunk ports can carry multiple VLANs at the same time; trunk links connect two trunk ports on two switches (or a switch and router) to allow information from multiple VLANs to be carried out across switches.
 
+## VLAN Identification
 
+Standard 802.3 Ethernet frames do not contain VLAN information; therefore, switches and other VLAN-enabled devices need a mechanism to keep track of all the VLAN information associated with a packet while traversing VLAN-enabled devices. Two main trunking methods are utilized to achieve this, ISL and IEEE 802.1Q.
