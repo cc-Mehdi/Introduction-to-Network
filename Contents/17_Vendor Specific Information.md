@@ -55,3 +55,7 @@ Any port on a VLAN-enabled switch must be either an access port or a trunk port.
 ## VLAN Identification
 
 Standard 802.3 Ethernet frames do not contain VLAN information; therefore, switches and other VLAN-enabled devices need a mechanism to keep track of all the VLAN information associated with a packet while traversing VLAN-enabled devices. Two main trunking methods are utilized to achieve this, ISL and IEEE 802.1Q.
+
+## Inter-Switch Link (ISL)
+
+Inter-Switch Link (ISL) is a Cisco-proprietary protocol used for trunking between VLAN-enabled devices. Although ISL is one of the first trunking methods (predating 802.1Q), it is deprecated and not as widely used in modern Cisco switches (and routers). Instead, most only support the widely adopted 802.1Q. ISL encapsulated the entire Ethernet frame, including the original Ethernet header and the VLAN tag, adding its 26-byte header and 4-byte trailer.
