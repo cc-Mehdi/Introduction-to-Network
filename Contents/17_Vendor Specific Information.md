@@ -67,3 +67,6 @@ To ensure interoperability of VLAN technologies from the various network-equipme
 ![image](https://github.com/user-attachments/assets/a00a91ca-2ab1-42d8-ac5f-ed7b8d186ffb)
 
 Tag protocol identifier (TPID) is a 16-bit field always set to 0x8100 to identify the Ethernet frame as an 802.1Q-tagged frame. Tag Control Information (TCI) is a 16-bit field containing Priority code point (PCP), Drop eligible indicator (DEI) (previously known as Canonical format indicator (CFI)), and VLAN identifier (VID). The main field concerning VLANs is VID, occupying the low-order 12-bits of TCI. Since it is 12 bits, it allows 2^12 - 2 = 4096 (remember, 0 and 4095 are reserved) VLAN IDs. Therefore, an 802.1Q-tagged frame can contain information for 4094 VLANs; the practice of inserting multiple 802.1Q tags within a single packet is known as Double Tagging, introduced by [802.1ad](https://standards.ieee.org/ieee/802.1Q/10323/). VLAN tagging is the process of inserting VLAN information into an 802.1Q Ethernet header, while VLAN untagging is the process of removing the VLAN information from an 802.1Q-tagged Ethernet frame and forwarding the packet to the destined ports.
+
+## VLAN-Capable NICs
+Some **network interface cards** (**NICs**) attached to computers/servers support **VLAN tagging**. Let us see how we can assign a **VLAN** ID to a **NIC** using Linux and Windows.
