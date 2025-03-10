@@ -59,3 +59,10 @@ Standard 802.3 Ethernet frames do not contain VLAN information; therefore, switc
 ### Inter-Switch Link (ISL)
 
 Inter-Switch Link (ISL) is a Cisco-proprietary protocol used for trunking between VLAN-enabled devices. Although ISL is one of the first trunking methods (predating 802.1Q), it is deprecated and not as widely used in modern Cisco switches (and routers). Instead, most only support the widely adopted 802.1Q. ISL encapsulated the entire Ethernet frame, including the original Ethernet header and the VLAN tag, adding its 26-byte header and 4-byte trailer.
+
+### IEEE 802.1Q
+
+To ensure interoperability of VLAN technologies from the various network-equipments vendors, the Institute of Electrical and Electronics Engineers (IEEE) developed the [802.1Q](https://ieeexplore.ieee.org/document/10004498) specification in 1998. The IEEE 802 committee had to change the 802.3 Ethernet frame format by adding a pair of 2-byte fields, TPID and TCI (which consists of three subfields, PCP, DEI, and VID), resulting in a VLAN-compliant 802.1Q Ethernet frame.
+
+![image](https://github.com/user-attachments/assets/a00a91ca-2ab1-42d8-ac5f-ed7b8d186ffb)
+
