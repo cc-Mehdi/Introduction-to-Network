@@ -14,3 +14,6 @@ One of the main limitations of the **Diffie-Hellman** key exchange is that it is
 
 Another limitation is that it requires a relatively large amount of **CPU power** to generate the shared secret key. This can make it impractical for use in low-power devices or in situations where the key needs to be generated quickly.
 
+## RSA
+
+![image](https://github.com/user-attachments/assets/79c30bbd-9078-4779-b27e-f637cf3feff0)
