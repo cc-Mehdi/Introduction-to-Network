@@ -19,3 +19,13 @@ Another limitation is that it requires a relatively large amount of **CPU power*
 ![image](https://github.com/user-attachments/assets/79c30bbd-9078-4779-b27e-f637cf3feff0)
 
 Another key exchange method is the [Rivest–Shamir–Adleman](https://www.venafi.com/blog/how-diffie-hellman-key-exchange-different-rsa) (**RSA**) algorithm, which uses the properties of large prime numbers to generate a shared secret key. This method relies on the fact that it is relatively easy to multiply large prime numbers together but challenging to factor the resulting number back into its prime factors. Besides these two, there are also a couple of others that we need to look at. It is also widely used in many other applications and protocols that require secure communication and data protection, including but not limited to:
+
+- Encrypting and signing messages to provide confidentiality and authentication
+
+- Protecting data in transit over networks, such as in the Secure Socket Layer (SSL) and TLS protocols
+
+- Generating and verifying digital signatures, which are used to provide authenticity and integrity for electronic documents and other digital data
+
+- Authenticating users and devices, such as in the Public Key Cryptography for Initial Authentication in Kerberos (PKINIT) protocol used by the Kerberos network authentication system
+
+- Protecting sensitive information, such as in the encryption of personal data and confidential documents
