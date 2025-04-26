@@ -29,3 +29,7 @@ Another key exchange method is the [Rivest–Shamir–Adleman](https://www.venaf
 - Authenticating users and devices, such as in the [Public Key Cryptography for Initial Authentication in Kerberos](https://www.ietf.org/rfc/rfc4556.txt) (**PKINIT**) protocol used by the Kerberos network authentication system
 
 - Protecting sensitive information, such as in the encryption of personal data and confidential documents
+
+## ECDH
+
+[Elliptic curve Diffie-Hellman](https://medium.com/swlh/understanding-ec-diffie-hellman-9c07be338d4a) (**ECDH**) is a variant of Diffie-Hellman key exchange that uses elliptic curve cryptography to generate the shared secret key. It has the advantage of being more efficient and secure than the original Diffie-Hellman algorithm, including but not limited to:
