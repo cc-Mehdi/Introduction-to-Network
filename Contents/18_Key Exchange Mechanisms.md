@@ -39,3 +39,11 @@ Another key exchange method is the [Rivest–Shamir–Adleman](https://www.venaf
 - Providing forward secrecy, which ensures that past communications cannot be revealed even if the private keys are compromised
 
 - Authenticating users and devices, such as in the [Internet Key Exchange](https://docs.oracle.com/cd/E19683-01/816-7264/6md9iem1g/index.html) (**IKE**) protocol used in VPNs
+
+## ECDSA
+
+The [Elliptic Curve Digital Signature Algorithm](https://www.hypr.com/security-encyclopedia/elliptic-curve-digital-signature-algorithm) (**ECDSA**) uses elliptic curve cryptography to generate digital signatures that can authenticate the parties involved in the key exchange.
+
+Let us summarize and compare these algorithms:
+
+![image](https://github.com/user-attachments/assets/3dd02875-8fa0-448e-977d-64280ce51b7d)
