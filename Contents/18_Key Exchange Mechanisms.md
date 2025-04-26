@@ -22,10 +22,10 @@ Another key exchange method is the [Rivest–Shamir–Adleman](https://www.venaf
 
 - Encrypting and signing messages to provide confidentiality and authentication
 
-- Protecting data in transit over networks, such as in the Secure Socket Layer (SSL) and TLS protocols
+- Protecting data in transit over networks, such as in the [Secure Socket Layer](https://www.cloudflare.com/learning/ssl/what-is-ssl/) (**SSL**) and **TLS** protocols
 
 - Generating and verifying digital signatures, which are used to provide authenticity and integrity for electronic documents and other digital data
 
-- Authenticating users and devices, such as in the Public Key Cryptography for Initial Authentication in Kerberos (PKINIT) protocol used by the Kerberos network authentication system
+- Authenticating users and devices, such as in the [Public Key Cryptography for Initial Authentication in Kerberos](https://www.ietf.org/rfc/rfc4556.txt) (**PKINIT**) protocol used by the Kerberos network authentication system
 
 - Protecting sensitive information, such as in the encryption of personal data and confidential documents
