@@ -47,3 +47,7 @@ The [Elliptic Curve Digital Signature Algorithm](https://www.hypr.com/security-e
 Let us summarize and compare these algorithms:
 
 ![image](https://github.com/user-attachments/assets/3dd02875-8fa0-448e-977d-64280ce51b7d)
+
+## Internet Key Exchange
+
+[Internet Key Exchange](https://www.hypr.com/security-encyclopedia/internet-key-exchange) (**IKE**) is a protocol used to establish and maintain secure communication sessions, such as those used in VPNs. It uses a combination of the **Diffie-Hellman** key exchange algorithm and **other cryptographic techniques** to securely exchange keys and negotiate security parameters. Besides, it is a key component of many VPN solutions, as it enables the secure exchange of keys and other security information between the VPN client and server. This allows the VPN to establish an encrypted tunnel through which data can be transmitted securely.
