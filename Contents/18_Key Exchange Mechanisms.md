@@ -33,3 +33,9 @@ Another key exchange method is the [Rivest–Shamir–Adleman](https://www.venaf
 ## ECDH
 
 [Elliptic curve Diffie-Hellman](https://medium.com/swlh/understanding-ec-diffie-hellman-9c07be338d4a) (**ECDH**) is a variant of Diffie-Hellman key exchange that uses elliptic curve cryptography to generate the shared secret key. It has the advantage of being more efficient and secure than the original Diffie-Hellman algorithm, including but not limited to:
+
+- Establishing secure communication channels, such as in the **TLS** protocol
+
+- Providing forward secrecy, which ensures that past communications cannot be revealed even if the private keys are compromised
+
+- Authenticating users and devices, such as in the [Internet Key Exchange](https://docs.oracle.com/cd/E19683-01/816-7264/6md9iem1g/index.html) (**IKE**) protocol used in VPNs
