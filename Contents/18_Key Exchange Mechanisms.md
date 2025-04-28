@@ -66,3 +66,5 @@ The **main mode** is the default mode for **IKE** and is generally considered **
 
 ### Pre-Shared Keys
 In IKE, a **Pre-Shared Key (PSK)** is a secret value shared between the two parties involved in the key exchange. This key is used to authenticate the parties and establish a shared secret that encrypts subsequent communication. The use of a **PSK** is optional in IKE, and whether or not to use one depends on the specific requirements and constraints of the situation. However, if a PSK is used, it must be securely exchanged between the two parties before the key exchange process begins. This can be done through a secure out-of-band channel, such as a separate communication channel, or by physically exchanging the key.
+
+The main advantage of using a PSK is that it provides an additional layer of security by allowing the parties to authenticate with each other. However, using a PSK also has some limitations and drawbacks. For example, it can be difficult to exchange the key securely, and if the key is compromised through a MITM attack, the security of the IKE session may be compromised.
