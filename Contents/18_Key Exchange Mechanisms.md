@@ -55,3 +55,9 @@ Let us summarize and compare these algorithms:
 IKE can also be used for other purposes, such as in the authentication of users and devices. It is typically used in conjunction with other protocols and algorithms, such as the RSA algorithm for key exchange and digital signatures, and the [Advanced Encryption Standard](https://www.geeksforgeeks.org/advanced-encryption-standard-aes/) (**AES**) for data encryption.
 
 IKE operates either in **main mode** or **aggressive mode**. These modes determine the sequence and parameters of the key exchange process and can affect the security and performance of the IKE session.
+
+### Main Mode
+
+The **main mode** is the default mode for **IKE** and is generally considered **more secure** than the aggressive mode. The key exchange process is performed in **three phases** in the main mode, each exchanging a different set of security parameters and keys. This allows for greater flexibility and security but can also result in slower performance compared to aggressive mode.
+
+
