@@ -64,4 +64,5 @@ The **main mode** is the default mode for **IKE** and is generally considered **
 
 **Aggressive mode** is an alternative mode for **IKE** that provides **faster performance** by reducing the number of round trips and message exchanges required for key exchange. In this mode, the key exchange process is performed in **two phases**, with all security parameters and keys being exchanged in the first phase. However, this can provide faster performance but may also reduce the security of the IKE session compared to the main mode since the **aggressive mode** does not provide identity protection.
 
-
+### Pre-Shared Keys
+In IKE, a **Pre-Shared Key (PSK)** is a secret value shared between the two parties involved in the key exchange. This key is used to authenticate the parties and establish a shared secret that encrypts subsequent communication. The use of a **PSK** is optional in IKE, and whether or not to use one depends on the specific requirements and constraints of the situation. However, if a PSK is used, it must be securely exchanged between the two parties before the key exchange process begins. This can be done through a secure out-of-band channel, such as a separate communication channel, or by physically exchanging the key.
