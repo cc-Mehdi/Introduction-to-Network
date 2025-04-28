@@ -60,4 +60,8 @@ IKE operates either in **main mode** or **aggressive mode**. These modes determi
 
 The **main mode** is the default mode for **IKE** and is generally considered **more secure** than the aggressive mode. The key exchange process is performed in **three phases** in the main mode, each exchanging a different set of security parameters and keys. This allows for greater flexibility and security but can also result in slower performance compared to aggressive mode.
 
+### Aggressive Mode
+
+**Aggressive mode** is an alternative mode for **IKE** that provides **faster performance** by reducing the number of round trips and message exchanges required for key exchange. In this mode, the key exchange process is performed in **two phases**, with all security parameters and keys being exchanged in the first phase. However, this can provide faster performance but may also reduce the security of the IKE session compared to the main mode since the **aggressive mode** does not provide identity protection.
+
 
