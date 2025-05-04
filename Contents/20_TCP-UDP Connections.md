@@ -20,3 +20,5 @@ We can also think of the IP packet as a letter sent in an envelope. The envelope
 
 The header of an IP packet contains several fields that have important information.
 
+![image](https://github.com/user-attachments/assets/709139a2-965e-46e7-8a20-00cf92fe32ec)
+
