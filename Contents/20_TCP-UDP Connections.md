@@ -25,3 +25,5 @@ The header of an IP packet contains several fields that have important informati
 We may see a computer with multiple IP addresses in different networks. Here we should pay attention to the **IP ID** field. It is used to identify fragments of an IP packet when fragmented into smaller parts. It is a **16-bit** field with a unique number ranging from **0-65535**.
 
 If a computer has multiple IP addresses, the **IP ID** field will be different for each packet sent from the computer but very similar. In TCPdump, the network traffic might look something like this:
+
+![image](https://github.com/user-attachments/assets/b7ade117-89f2-428d-adc6-22e45ceb4fe0)
