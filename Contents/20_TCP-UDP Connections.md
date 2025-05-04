@@ -37,3 +37,14 @@ The **Record-Route field** in the IP header also records the route to a destinat
 The output indicates that a ping request was sent and a response was received from the destination device and also shows the Record-Route field in the IP header of the ICMP Echo Request packet. The Record Route field contains the IP addresses of all devices that passed through the ICMP Echo Request packet on the way to the destination device. In this case, the Record-Route field contains the IP addresses:
 
 ![image](https://github.com/user-attachments/assets/507d90ed-dbef-452e-922c-5d8f64229069)
+
+The **traceroute** tool can also be used to trace the route to a destination more accurately, which uses the TCP timeout method to determine when the route has been fully traced.
+
+1. We send a TCP SYN packet to the destination device with a TTL of 1 in the IP header.
+
+  When the TCP SYN packet with a TTL greater than 1 reaches a router, the value of the TTL is decreased by 1, and the packet is forwarded to the next device. If the TCP SYN packet with a TTL of 1 reaches a router, the     
+  packet is dropped, and the router sends an ICMP Time-Exceeded packet back to us.
+
+2. We receive the ICMP Time-Exceeded packet and note the IP address of the router that sent the packet.
+
+3. After that, we send another TCP SYN packet to the destination, increasing the TTL by 1.
