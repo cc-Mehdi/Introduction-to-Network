@@ -53,3 +53,6 @@ The process repeats until the TCP SYN packet reaches the destination host and re
 
 ![image](https://github.com/user-attachments/assets/9b84854f-2a54-4a7b-b2ab-f04ad940d3e8)
 
+### IP Payload
+
+The payload (also referred to as **IP Data**) is the actual payload of the packet. It contains the data from various protocols, such as TCP or UDP, that are being transmitted, just like the contents of the letter in the envelope.
