@@ -33,3 +33,7 @@ If a computer has multiple IP addresses, the **IP ID** field will be different f
 The **Record-Route field** in the IP header also records the route to a destination device. When the destination device sends back the **ICMP Echo Reply** packet, the IP addresses of all devices that pass through the packet are listed in the **Record-Route field** of the IP header. This happens when we use the following command, for example:
 
 ![image](https://github.com/user-attachments/assets/11f25e9b-fb86-4a8d-a9ba-7d691da17107)
+
+The output indicates that a ping request was sent and a response was received from the destination device and also shows the Record-Route field in the IP header of the ICMP Echo Request packet. The Record Route field contains the IP addresses of all devices that passed through the ICMP Echo Request packet on the way to the destination device. In this case, the Record-Route field contains the IP addresses:
+
+![image](https://github.com/user-attachments/assets/507d90ed-dbef-452e-922c-5d8f64229069)
