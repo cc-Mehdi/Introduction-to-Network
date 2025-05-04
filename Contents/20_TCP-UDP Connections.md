@@ -64,3 +64,9 @@ TCP packets, also known as **segments**, are divided into several sections calle
 The header contains several fields that contain important information. The source port indicates the computer from which the packet was sent. The destination port indicates to which computer the packet is sent. The sequence number indicates the order in which the data was sent. The confirmation number is used to confirm that all data was received successfully. The control flags indicate whether the packet marks the end of a message, whether it is an acknowledgment that data has been received, or whether it contains a request to repeat data. The window size indicates how much data the receiver can receive. The checksum is used to detect errors in the header and payload. The Urgent Pointer alerts the receiver that important data is in the payload.
 
 The payload is the actual payload of the packet and contains the data that is being transmitted, just like the content of a conversation between two people.
+
+![image](https://github.com/user-attachments/assets/a72a519e-0ec6-44f2-ba57-37beeed434d6)
+
+## UDP
+
+UDP transfers **datagrams** (small data packets) between two hosts. It is a connectionless protocol, meaning it does not need to establish a connection between the sender and the receiver before sending data. Instead, the data is sent directly to the target host without any prior connection.
