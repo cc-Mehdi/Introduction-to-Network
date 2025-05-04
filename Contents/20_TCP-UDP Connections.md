@@ -56,3 +56,11 @@ The process repeats until the TCP SYN packet reaches the destination host and re
 ### IP Payload
 
 The payload (also referred to as **IP Data**) is the actual payload of the packet. It contains the data from various protocols, such as TCP or UDP, that are being transmitted, just like the contents of the letter in the envelope.
+
+## TCP
+
+TCP packets, also known as **segments**, are divided into several sections called headers and payloads. The TCP segments are wrapped in the sent IP packet.
+
+The header contains several fields that contain important information. The source port indicates the computer from which the packet was sent. The destination port indicates to which computer the packet is sent. The sequence number indicates the order in which the data was sent. The confirmation number is used to confirm that all data was received successfully. The control flags indicate whether the packet marks the end of a message, whether it is an acknowledgment that data has been received, or whether it contains a request to repeat data. The window size indicates how much data the receiver can receive. The checksum is used to detect errors in the header and payload. The Urgent Pointer alerts the receiver that important data is in the payload.
+
+The payload is the actual payload of the packet and contains the data that is being transmitted, just like the content of a conversation between two people.
