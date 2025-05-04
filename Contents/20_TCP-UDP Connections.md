@@ -11,3 +11,6 @@
 ## IP Packet
 
 ![image](https://github.com/user-attachments/assets/c33d646e-60ef-45f0-be20-11caddee5bdb)
+
+An [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol) (**IP**) packet is the data area used by the network layer of the [Open Systems Interconnection](https://en.wikipedia.org/wiki/OSI_model) (**OSI**) model to transmit data from one computer to another. It consists of a header and the payload, the actual payload data.
+
