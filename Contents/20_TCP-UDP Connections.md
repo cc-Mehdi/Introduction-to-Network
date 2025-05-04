@@ -14,3 +14,4 @@
 
 An [Internet Protocol](https://en.wikipedia.org/wiki/Internet_Protocol) (**IP**) packet is the data area used by the network layer of the [Open Systems Interconnection](https://en.wikipedia.org/wiki/OSI_model) (**OSI**) model to transmit data from one computer to another. It consists of a header and the payload, the actual payload data.
 
+We can also think of the IP packet as a letter sent in an envelope. The envelope contains the header, which includes information on the sender and the recipient, as well as instructions for routing the letter, i.e., via which post offices the letter should be sent. The letter itself is the payload, the actual payload data.
