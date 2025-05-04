@@ -49,5 +49,7 @@ packet is dropped, and the router sends an ICMP Time-Exceeded packet back to us.
 
 3. After that, we send another TCP SYN packet to the destination, increasing the TTL by 1.
 
-
 The process repeats until the TCP SYN packet reaches the destination host and receives a **TCP SYN/ACK** or a **TCP RST** response from the target. Once we receive a response from the destination device, we know that we have traced the route to the destination and ended the traceroute process.
+
+![image](https://github.com/user-attachments/assets/9b84854f-2a54-4a7b-b2ab-f04ad940d3e8)
+
