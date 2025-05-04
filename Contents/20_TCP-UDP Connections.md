@@ -70,3 +70,5 @@ The payload is the actual payload of the packet and contains the data that is be
 ## UDP
 
 UDP transfers **datagrams** (small data packets) between two hosts. It is a connectionless protocol, meaning it does not need to establish a connection between the sender and the receiver before sending data. Instead, the data is sent directly to the target host without any prior connection.
+
+When **traceroute** is used with UDP, we will receive a **Destination Unreachable** and **Port Unreachable** message when the UDP datagram packet reaches the target device. Generally, UDP packets are sent using **traceroute** on Unix hosts.
