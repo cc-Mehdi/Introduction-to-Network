@@ -27,3 +27,9 @@ We may see a computer with multiple IP addresses in different networks. Here we 
 If a computer has multiple IP addresses, the **IP ID** field will be different for each packet sent from the computer but very similar. In TCPdump, the network traffic might look something like this:
 
 ![image](https://github.com/user-attachments/assets/b7ade117-89f2-428d-adc6-22e45ceb4fe0)
+
+### IP Record-Route Field
+
+The **Record-Route field** in the IP header also records the route to a destination device. When the destination device sends back the **ICMP Echo Reply** packet, the IP addresses of all devices that pass through the packet are listed in the **Record-Route field** of the IP header. This happens when we use the following command, for example:
+
+![image](https://github.com/user-attachments/assets/11f25e9b-fb86-4a8d-a9ba-7d691da17107)
