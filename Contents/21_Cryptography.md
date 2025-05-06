@@ -55,3 +55,4 @@ A cipher mode refers to how a block cipher algorithm encrypts a plaintext messag
 
 ![image](https://github.com/user-attachments/assets/95dc39e4-a3d0-4bc4-8232-c74a03705a9e)
 
+Each mode has its characteristics and is more suitable for certain use cases. The choice of encryption mode depends on the application's requirements and the security objectives to be achieved.
