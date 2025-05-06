@@ -28,3 +28,10 @@ The public key is used to encrypt the data, while the private key is used to dec
 ## Public-Key Encryption
 
 One advantage of asymmetric encryption is its security. Since the **security** is based on very hard-to-solve mathematical problems, simple attacks cannot crack it. Furthermore, the issue of key exchange is bypassed. This is a significant problem with symmetric encryption methods. However, since the public key can be accessible to everyone, there is no need to exchange keys secretly. In addition, the asymmetric methods open up the possibility of authentication with digital signatures.
+
+
+![image](https://github.com/user-attachments/assets/cd73ee94-1762-4ff0-8bc0-c90f4bf64681)
+
+## Data Encryption Standard
+
+DES is a symmetric-key block cipher, and its encryption works as a combination of the one-time pad, permutation, and substitution ciphers applied to bit sequences. It uses the **same key** in both **encrypting and decrypting** data.
