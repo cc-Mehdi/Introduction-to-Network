@@ -19,6 +19,8 @@ Asymmetric encryption, also known as **public-key encryption**, is a method of e
 - a **public key**
 - a **private key**
 
+![image](https://github.com/user-attachments/assets/37a5bbf5-5d7a-4a1e-9ef1-6022a56fa110)
+
 The public key is used to encrypt the data, while the private key is used to decrypt the data. This means anyone can use a public key to encrypt data for someone, but only the recipient with the associated private key can decrypt the data. Examples of asymmetric encryption methods include [Rivest–Shamir–Adleman](https://en.wikipedia.org/wiki/RSA_(cryptosystem)) (**RSA**), [Pretty Good Privacy](https://en.wikipedia.org/wiki/Pretty_Good_Privacy) (**PGP**), and [Elliptic Curve Cryptography](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography) (**ECC**). Asymmetric encryption is used in a variety of applications, some of which include:
 
 ![image](https://github.com/user-attachments/assets/79994bfb-b1da-47a5-92d6-8d3160fd4b20)
