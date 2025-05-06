@@ -25,3 +25,6 @@ The public key is used to encrypt the data, while the private key is used to dec
 
 ![image](https://github.com/user-attachments/assets/79994bfb-b1da-47a5-92d6-8d3160fd4b20)
 
+## Public-Key Encryption
+
+One advantage of asymmetric encryption is its security. Since the **security** is based on very hard-to-solve mathematical problems, simple attacks cannot crack it. Furthermore, the issue of key exchange is bypassed. This is a significant problem with symmetric encryption methods. However, since the public key can be accessible to everyone, there is no need to exchange keys secretly. In addition, the asymmetric methods open up the possibility of authentication with digital signatures.
