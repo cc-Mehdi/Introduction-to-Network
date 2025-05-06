@@ -40,3 +40,7 @@ The key consists of **64 bits**, with **8 bits** used as a checksum. Therefore, 
 **3DES** was considered more secure than the original DES because it provides greater security using three rounds of encryption, although using a 56-bit key still limits it. **AES**, the successor to DES, provides higher security using longer key lengths and is now the most widely used symmetric encryption technology.
 
 An extension of DES is the so-called [Triple DES / 3DES](https://en.wikipedia.org/wiki/Triple_DES), which encrypts data more securely. The procedure for this usually consists of three keys, with the first key being used to encrypt the data, the second to decrypt the data, and the third to encrypt the data again.
+
+## Advanced Encryption Standard
+
+Compared to DES, AES uses 128-bit (**AES-128**), 192-bit (**AES-192**), or 256-bit (**AES-256**) keys to encrypt and decrypt data. In addition, AES is faster than DES because it has a more efficient algorithm structure. This is because it can be applied to multiple data blocks at once, making it faster. This means that AES encryption and decryption can be performed faster than DES, which is especially important when large amounts of data need to be encrypted.
