@@ -44,3 +44,8 @@ An extension of DES is the so-called [Triple DES / 3DES](https://en.wikipedia.or
 ## Advanced Encryption Standard
 
 Compared to DES, AES uses 128-bit (**AES-128**), 192-bit (**AES-192**), or 256-bit (**AES-256**) keys to encrypt and decrypt data. In addition, AES is faster than DES because it has a more efficient algorithm structure. This is because it can be applied to multiple data blocks at once, making it faster. This means that AES encryption and decryption can be performed faster than DES, which is especially important when large amounts of data need to be encrypted.
+
+For example, we can find AES in many different applications and protocols, but they are not limited to:
+
+![image](https://github.com/user-attachments/assets/e5a0757f-f1d0-4f87-9c90-4ba1f7d7271e)
+
