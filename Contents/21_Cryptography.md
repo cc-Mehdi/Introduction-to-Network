@@ -37,4 +37,6 @@ DES is a symmetric-key block cipher, and its encryption works as a combination o
 
 The key consists of **64 bits**, with **8 bits** used as a checksum. Therefore, the actual key length of DES is only **56 bits**. And that is why one always speaks of a key length of 56 bits when referring to DES. To prevent the danger from frequency analysis, not single letters, but each 64-bit block of plaintext is encrypted to a 64-bit block of ciphertext.
 
+**3DES** was considered more secure than the original DES because it provides greater security using three rounds of encryption, although using a 56-bit key still limits it. **AES**, the successor to DES, provides higher security using longer key lengths and is now the most widely used symmetric encryption technology.
+
 An extension of DES is the so-called [Triple DES / 3DES](https://en.wikipedia.org/wiki/Triple_DES), which encrypts data more securely. The procedure for this usually consists of three keys, with the first key being used to encrypt the data, the second to decrypt the data, and the third to encrypt the data again.
