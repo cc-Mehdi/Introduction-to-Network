@@ -8,4 +8,7 @@ Encryption is used on the Internet to transmit data, such as payment information
 
 Symmetric encryption, also known as secret key encryption, is a method that uses the same key to encrypt and decrypt the data. This means the sender and the receiver must have the same key to decrypt the data correctly.
 
+![image](https://github.com/user-attachments/assets/b015e2d1-7a4c-4dac-bc25-b688c06f3864)
+
 If the secret key is shared or lost, the security of the data is no longer guaranteed. Critical actions for symmetric encryption methods represent the distribution, storage, and exchange of the keys. [Advanced Encryption Standard](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) (**AES**) and Data [Encryption Standard](https://en.wikipedia.org/wiki/Data_Encryption_Standard) (**DES**) are examples of symmetric encryption algorithms. This type of encryption is often used to encrypt large amounts of data, such as files on a hard drive or data sent over a network. **AES** is considered to be the most secure encryption algorithm nowadays.
+
