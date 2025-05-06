@@ -36,3 +36,5 @@ One advantage of asymmetric encryption is its security. Since the **security** i
 DES is a symmetric-key block cipher, and its encryption works as a combination of the one-time pad, permutation, and substitution ciphers applied to bit sequences. It uses the **same key** in both **encrypting and decrypting** data.
 
 The key consists of **64 bits**, with **8 bits** used as a checksum. Therefore, the actual key length of DES is only **56 bits**. And that is why one always speaks of a key length of 56 bits when referring to DES. To prevent the danger from frequency analysis, not single letters, but each 64-bit block of plaintext is encrypted to a 64-bit block of ciphertext.
+
+An extension of DES is the so-called [Triple DES / 3DES](https://en.wikipedia.org/wiki/Triple_DES), which encrypts data more securely. The procedure for this usually consists of three keys, with the first key being used to encrypt the data, the second to decrypt the data, and the third to encrypt the data again.
