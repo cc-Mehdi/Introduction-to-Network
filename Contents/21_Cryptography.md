@@ -52,3 +52,6 @@ For example, we can find AES in many different applications and protocols, but t
 ## Cipher Modes
 
 A cipher mode refers to how a block cipher algorithm encrypts a plaintext message. A block cipher algorithm encrypts data, each using fixed-size blocks of data (usually 64 or 128 bits). A cipher mode defines how these blocks are processed and combined to encrypt a message of any length. There are several common cipher modes, including:
+
+![image](https://github.com/user-attachments/assets/95dc39e4-a3d0-4bc4-8232-c74a03705a9e)
+
