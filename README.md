@@ -1,6 +1,5 @@
 ![GitHub repo views](https://img.shields.io/github/watchers/cc-Mehdi/Introduction-to-Network?label=Views&style=social)
 
-
 ![Introduction To Network Banner](https://github.com/user-attachments/assets/394d4777-050d-418e-a89d-1047e2d0df8f)
 
 # Introduction-to-Network
